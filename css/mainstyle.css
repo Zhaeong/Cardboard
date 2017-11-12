@@ -8,6 +8,30 @@ src: url(../fonts/Bungee-Hairline.otf);
 font-family: Quicksand_Light;
 src: url(../fonts/Quicksand_Light.otf);
 }
+@font-face {
+font-family: Quicksand;
+src: url(../fonts/Quicksand_Book.otf);
+}
+@font-face {
+font-family: Oswald;
+src: url(../fonts/Oswald-Regular.ttf);
+}
+@font-face {
+font-family: Oswald_Light;
+src: url(../fonts/Oswald-Light.ttf);
+}
+@font-face {
+font-family: Oswald_ExtraLight;
+src: url(../fonts/Oswald-ExtraLight.ttf);
+}
+@font-face {
+font-family: Oswald_Medium;
+src: url(../fonts/Oswald-Medium.ttf);
+}
+@font-face {
+font-family: Oswald_DemiBold;
+src: url(../fonts/Oswald-DemiBold.ttf);
+}
 
 /* STYLES */
 body {
@@ -34,10 +58,10 @@ ul {
     margin-right: 200px;
     padding: 0;
     overflow: hidden;
-    background-color: #4c4f51;
+    background-color: #FFDB00;
     text-align: center;
-    font-family: Quicksand_Light;
-    font-size: 20px;
+    font-family: Oswald;
+    font-size: 22px;
 }
 
 /* \Remove the line breaks before and after each 
@@ -48,7 +72,7 @@ li {
 
 li a {
     display: inline-block;
-    color: white;
+    color: #2f2f2f;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -59,7 +83,7 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: #2b2a2a;
+    background-color: #ffee8a;
 }
 /* Active panel colour */
 .active {

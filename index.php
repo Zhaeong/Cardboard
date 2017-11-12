@@ -10,10 +10,10 @@
 
 <!--NAVIGATION BAR-->
 <ul>
-  <li><a href="index.php">home</a></li>
-  <li><a href="map.asp">map</a></li>
-  <li><a href="about.asp">about</a></li>
-  <li><a href="contact.asp">contact</a></li>
+  <li><a href="index.php">HOME</a></li>
+  <li><a href="map.asp">MAP</a></li>
+  <li><a href="about.asp">ABOUT</a></li>
+  <li><a href="contact.asp">CONTACT</a></li>
 </ul>
 
 
