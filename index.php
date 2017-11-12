@@ -16,12 +16,14 @@
   <li><a href="contact.asp">CONTACT</a></li>
 </ul>
 
-
+<p> <br> <br> Please enter two countries/states/territories.</p>
+<h2> Show me the plug types in...</h2>
+<p> <br>
 <?php
     include 'database/base_db.php';
     $dbObj = new databaseObj();
     echo '
-        <label for="color">Country</label>
+        <label for="color">Location 1</label>
     <input list="colors" id="countryA">
     <datalist id="colors">';
         echo $dbObj->getCountryOptions();    
@@ -32,10 +34,10 @@
         </div>
         ';
     ?>
-
+</p>
     
 <!--BODY TEXT-->
-<p> This is just a regular paragraph. <br>
+<p> <br><br> This is just a regular paragraph. <br>
 	Remember to check font licences Cynthia.</p>
 
 </body>

@@ -1,4 +1,5 @@
 
+
 /* TYPEFACES */
 @font-face {
 font-family: Bungee;
@@ -9,53 +10,51 @@ font-family: Quicksand_Light;
 src: url(../fonts/Quicksand_Light.otf);
 }
 @font-face {
-font-family: Quicksand;
-src: url(../fonts/Quicksand_Book.otf);
-}
-@font-face {
 font-family: Oswald;
 src: url(../fonts/Oswald-Regular.ttf);
 }
 @font-face {
-font-family: Oswald_Light;
-src: url(../fonts/Oswald-Light.ttf);
+font-family: Roboto_Light;
+src: url(../fonts/Roboto-Thin.ttf);
 }
-@font-face {
-font-family: Oswald_ExtraLight;
-src: url(../fonts/Oswald-ExtraLight.ttf);
-}
-@font-face {
-font-family: Oswald_Medium;
-src: url(../fonts/Oswald-Medium.ttf);
-}
-@font-face {
-font-family: Oswald_DemiBold;
-src: url(../fonts/Oswald-DemiBold.ttf);
-}
+
+
 
 /* STYLES */
 body {
     background-color: #323436;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+    /* title */
 h1   {
     color: #f7f7f7;
     font-family: Bungee, Helvetica;
     font-size: 82px;
     margin: 30px;
 }
+    /* small heading */
+h2   {
+    color: #f7f7f7;
+    font-family: Roboto_Light, Helvetica;
+    font-size: 30px;
+    margin: 0;
+}
 p    {
     color: #f7f7f7;
-    font-family: Quicksand_Light, Helvetica;
-    font-size: 20px;
+    font-family: Roboto_Light, Helvetica;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
+
+
 /* NAVIGATION BAR */
-/* The navbar container */
+    /* The navbar container */
 ul {
     list-style-type: none;
     margin: 0;
-    margin-left: 200px;
-    margin-right: 200px;
     padding: 0;
     overflow: hidden;
     background-color: #FFDB00;
@@ -64,8 +63,8 @@ ul {
     font-size: 22px;
 }
 
-/* \Remove the line breaks before and after each 
-list item to display them on one line */
+    /* \Remove the line breaks before and after each 
+    list item to display them on one line */
 li {
     display: inline;
 }
@@ -81,11 +80,11 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color on hover */
+    /* Change the link color on hover */
 li a:hover {
     background-color: #ffee8a;
 }
-/* Active panel colour */
+    /* Active panel colour */
 .active {
     background-color: #4CAF50;
 }
