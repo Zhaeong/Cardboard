@@ -12,6 +12,9 @@ src: url(../fonts/Quicksand_Light.otf);
 @font-face {
 font-family: Oswald;
 src: url(../fonts/Oswald-Regular.ttf);
+}@font-face {
+font-family: Oswald_Light;
+src: url(../fonts/Oswald-Light.ttf);
 }
 @font-face {
 font-family: Roboto_Light;
@@ -50,6 +53,7 @@ p    {
 
 
 
+
 /* NAVIGATION BAR */
     /* The navbar container */
 ul {
@@ -57,7 +61,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFDB00;
+    background-color: #ffca00;
     text-align: center;
     font-family: Oswald;
     font-size: 22px;
@@ -82,14 +86,38 @@ li a {
 
     /* Change the link color on hover */
 li a:hover {
-    background-color: #ffee8a;
+    background-color: #fbd562;
 }
     /* Active panel colour */
 .active {
     background-color: #4CAF50;
 }
 
+
+/* TABLE */
 #outputTable
 {
-    border: 1px solid black;
+    border: 3px solid #ffca00;
+    width: 100%;
+    background-color: #5a5c5e;
+    color: #ffca00;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
+    /* header */
+th {
+    font-family: Oswald_Light;
+    font-size: 40px;
+}
+    /* cell */
+td {
+    font-family: Roboto_Light;
+    font-size: 15px;
+}
+    /* row */
+tr {
+    height: 50px;
+    text-align: left;
+}
+tr:nth-child(even) {background-color: #46484a}

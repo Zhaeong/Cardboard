@@ -35,7 +35,7 @@
     echo '</datalist>';
     
     
-    echo '     <button onclick="getPlugFacts()">Click me</button> ';
+    echo '     <button onclick="getPlugFacts()">Compare</button> ';
     echo '
         <div class = "countryDisplay" id = "countryAdata">
         </div>
