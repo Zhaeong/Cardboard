@@ -7,14 +7,16 @@
 <body>
 
 <h1 style="text-align:center;"> plug-related title </h1>
-<p> Dummy text for checking margins/padding.</p>
+
 <!--NAVIGATION BAR-->
-<ul>
-  <li><a href="index.php">Home</a></li>
-  <li><a href="map.asp">Map</a></li>
-  <li><a href="about.asp">About</a></li>
-  <li><a href="contact.asp">Contact</a></li>
+<ul >
+  <li><a href="index.php">home</a></li>
+  <li><a href="map.asp">map</a></li>
+  <li><a href="about.asp">about</a></li>
+  <li><a href="contact.asp">contact</a></li>
 </ul>
+
+
 <?php
     include 'database/base_db.php';
     $dbObj = new databaseObj();
@@ -30,6 +32,8 @@
         </div>
         ';
     ?>
+
+    
 <!--BODY TEXT-->
 <p> This is just a regular paragraph. <br>
 	Remember to check font licences Cynthia.</p>
