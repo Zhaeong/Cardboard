@@ -9,18 +9,26 @@ function getPlugFacts()
 {
     var countryAname = document.getElementById("countryA").value;
     
-    var countryAhtml = '';
     
-    countryAhtml += '<h1>' + countryAname + '</h1>';
-    countryAhtml += '<img src="images/placeholder.png" alt="plugA">';
-    
-    document.getElementById("countryAdata").innerHTML = countryAhtml;
     
     var params = "getPlugFacts=1&countryA=" + countryAname;
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) { 
-            console.log(this.responseText);                           
+            
+            var responseJSON = JSON.parse(this.responseText);
+            console.log(responseJSON.plug);    
+            
+            var countryAhtml = '';
+    
+            countryAhtml += '<h1>' + countryAname + '</h1>';
+            countryAhtml += '<div> Plug: ' + responseJSON.plug + '</div>';
+            countryAhtml += '<div> Voltage: ' + responseJSON.voltage + '</div>';
+            countryAhtml += '<div> Frequency: ' + responseJSON.frequency + '</div>';
+            countryAhtml += '<img src="images/placeholder.png" alt="plugA">';
+
+            document.getElementById("countryAdata").innerHTML = countryAhtml;
+    
         }
     };
     xhttp.open("POST", "database/request_handler.php", true);

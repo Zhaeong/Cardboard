@@ -5,9 +5,12 @@ include 'base_db.php';
 if(isset($_POST['getPlugFacts']) && isset($_POST['countryA']))
 {
     $dbObj = new databaseObj();
-    $countryInfo = $dbObj->getCountryOptions();
-    echo "yayyaa";
-    echo $countryInfo;
+    
+    $countryA = $_POST['countryA'];
+    $countryInfo = $dbObj->getCountryInfo($countryA);
+    $countryInfoJSON = json_encode($countryInfo);
+    echo $countryInfoJSON;
+    
 }
 else
 {
