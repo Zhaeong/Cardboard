@@ -88,3 +88,8 @@ li a:hover {
 .active {
     background-color: #4CAF50;
 }
+
+#outputTable
+{
+    border: 1px solid black;
+}

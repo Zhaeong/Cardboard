@@ -47,26 +47,42 @@ class databaseObj {
         return $output;
     }    
     
-    function getCountryInfo($countryName)
+    function getCountryInfo($countryA, $countryB)
     {
+        $output = array();
         if($this->link === false){
             echo "ERROR: Could not connect. " . mysqli_connect_error();
         }
-        $sql = "SELECT country, plug, voltage, frequency 
+        $sqlA = "SELECT country, plug, voltage, frequency 
             FROM cardboard.powerswitches 
-            WHERE country = '" . $countryName ."';";
+            WHERE country = '" . $countryA ."';";
         
         //return $sql;
-        $result = mysqli_query($this->link, $sql);   
+        $result = mysqli_query($this->link, $sqlA);   
         
         if (!$result) {
             die('Could not query:' . mysql_error());
         }       
         
         $row = mysqli_fetch_assoc($result);
+        $output['CountryA'] = $row;   
         
         
         mysqli_free_result($result);
-        return $row;
+        
+        $sqlB = "SELECT country, plug, voltage, frequency 
+            FROM cardboard.powerswitches 
+            WHERE country = '" . $countryB ."';";
+        
+        //return $sql;
+        $resultB = mysqli_query($this->link, $sqlB);   
+        
+        if (!$resultB) {
+            die('Could not query:' . mysql_error());
+        }       
+        
+        $rowB = mysqli_fetch_assoc($resultB);
+        $output['CountryB'] = $rowB; 
+        return $output;
     } 
 } 

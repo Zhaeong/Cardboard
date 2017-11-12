@@ -8,25 +8,44 @@
 function getPlugFacts()
 {
     var countryAname = document.getElementById("countryA").value;
+    var countryBname = document.getElementById("countryB").value;
     
     
     
-    var params = "getPlugFacts=1&countryA=" + countryAname;
+    var params = "getPlugFacts=1&countryA=" + countryAname + "&countryB=" + countryBname;
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) { 
             
             var responseJSON = JSON.parse(this.responseText);
-            console.log(responseJSON.plug);    
+            console.log(this.responseText);    
             
             var countryAhtml = '';
     
-            countryAhtml += '<h1>' + countryAname + '</h1>';
-            countryAhtml += '<div> Plug: ' + responseJSON.plug + '</div>';
-            countryAhtml += '<div> Voltage: ' + responseJSON.voltage + '</div>';
-            countryAhtml += '<div> Frequency: ' + responseJSON.frequency + '</div>';
-            countryAhtml += '<img src="images/placeholder.png" alt="plugA">';
+            countryAhtml += '<table id = "outputTable">' 
+            + '<tr>'
+                + '<th></th>'
+                + '<th>' + responseJSON.CountryA.country + '</th>'
+                + '<th>' + responseJSON.CountryB.country + '</th>'
+            + '</tr>'
+            + '<tr>'
+                + '<td>Plug</td>'
+                + '<td>' + responseJSON.CountryA.plug + '</td>'
+                + '<td>' + responseJSON.CountryB.plug + '</td>'
+            + '</tr>'
+            + '<tr>'
+                + '<td>Voltage</td>'
+                + '<td>' + responseJSON.CountryA.voltage + '</td>'
+                + '<td>' + responseJSON.CountryB.voltage + '</td>'
+            + '</tr>'
+            + '<tr>'
+                + '<td>Frequency</td>'
+                + '<td>' + responseJSON.CountryA.frequency + '</td>'
+                + '<td>' + responseJSON.CountryB.frequency + '</td>'
+            + '</tr>'
+            
 
+            countryAhtml += '</table>' 
             document.getElementById("countryAdata").innerHTML = countryAhtml;
     
         }

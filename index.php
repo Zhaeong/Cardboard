@@ -3,6 +3,7 @@
 <head>
   <link rel="stylesheet" href="css/mainstyle.css">
   <script src="js/mainpage.js"></script> 
+  <title>Pluug</title>
 </head>
 <body>
 
@@ -23,11 +24,17 @@
     include 'database/base_db.php';
     $dbObj = new databaseObj();
     echo '
-        <label for="color">Location 1</label>
-    <input list="colors" id="countryA">
-    <datalist id="colors">';
+    <label for="color">Location 1</label>
+    <input list="countries" id="countryA">
+    
+    <label for="color">Location 2</label>
+    <input list="countries" id="countryB">';
+    
+    echo '<datalist id="countries">';
         echo $dbObj->getCountryOptions();    
     echo '</datalist>';
+    
+    
     echo '     <button onclick="getPlugFacts()">Click me</button> ';
     echo '
         <div class = "countryDisplay" id = "countryAdata">
