@@ -1,0 +1,59 @@
+
+/* TYPEFACES */
+@font-face {
+font-family: Bungee;
+src: url(../fonts/Bungee-Hairline.otf);
+}
+@font-face {
+font-family: Quicksand_Light;
+src: url(../fonts/Quicksand_Light.otf);
+}
+
+/* STYLES */
+body {
+	background-color: #366498;
+}
+h1   {
+	color: #f7f7f7;
+	font-family: Bungee, sans-serif;
+    font-size: 82px;
+}
+p    {
+	color: #f7f7f7;
+	font-family: Quicksand_Light;
+	font-size: 20px;
+}
+
+/* NAVIGATION BAR */
+/* The navbar container */
+ul {
+    list-style-type: none;
+    margin: 100px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3a3a3a;
+    text-align: center;
+    font-family: Quicksand_Light;
+    font-size: 24px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #2b2a2a;
+}
+/* Active panel colour */
+.active {
+    background-color: #4CAF50;
+}
