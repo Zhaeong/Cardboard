@@ -11,7 +11,7 @@ src: url(../fonts/Quicksand_Light.otf);
 
 /* STYLES */
 body {
-    background-color: #366498;
+    background-color: #323436;
 }
 h1   {
     color: #f7f7f7;
@@ -30,15 +30,18 @@ p    {
 ul {
     list-style-type: none;
     margin: 0;
+    margin-left: 200px;
+    margin-right: 200px;
     padding: 0;
-    width: 900px;
     overflow: hidden;
-    background-color: #3a3a3a;
+    background-color: #4c4f51;
     text-align: center;
     font-family: Quicksand_Light;
     font-size: 20px;
 }
 
+/* \Remove the line breaks before and after each 
+list item to display them on one line */
 li {
     display: inline;
 }
@@ -47,7 +50,10 @@ li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-decoration: none;
 }
 

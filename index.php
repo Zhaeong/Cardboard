@@ -9,7 +9,7 @@
 <h1 style="text-align:center;"> plug-related title </h1>
 
 <!--NAVIGATION BAR-->
-<ul >
+<ul>
   <li><a href="index.php">home</a></li>
   <li><a href="map.asp">map</a></li>
   <li><a href="about.asp">about</a></li>
