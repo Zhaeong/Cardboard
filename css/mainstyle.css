@@ -15,12 +15,13 @@ body {
 }
 h1   {
     color: #f7f7f7;
-    font-family: Bungee, sans-serif;
+    font-family: Bungee, Helvetica;
     font-size: 82px;
+    margin: 30px;
 }
 p    {
     color: #f7f7f7;
-    font-family: Quicksand_Light;
+    font-family: Quicksand_Light, Helvetica;
     font-size: 20px;
 }
 
@@ -35,7 +36,7 @@ ul {
     background-color: #3a3a3a;
     text-align: center;
     font-family: Quicksand_Light;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 li {
