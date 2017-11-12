@@ -2,11 +2,11 @@
 /* TYPEFACES */
 @font-face {
 font-family: Bungee;
-src: url(fonts/Bungee-Hairline.otf);
+src: url(../fonts/Bungee-Hairline.otf);
 }
 @font-face {
 font-family: Quicksand_Light;
-src: url(fonts/Quicksand_Light.otf);
+src: url(../fonts/Quicksand_Light.otf);
 }
 
 /* STYLES */
