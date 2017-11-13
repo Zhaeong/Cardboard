@@ -15,12 +15,9 @@ function getPlugFacts()
     var params = "getPlugFacts=1&countryA=" + countryAname + "&countryB=" + countryBname;
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
-        if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) { 
-            console.log(this.responseText);
+        if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) {             
             
-            var responseJSON = JSON.parse(this.responseText);
-                
-            
+            var responseJSON = JSON.parse(this.responseText);  
             var countryAhtml = '';
     
             countryAhtml += '<table id = "outputTable">' 
@@ -46,8 +43,7 @@ function getPlugFacts()
             + '</tr>'
 
             countryAhtml += '</table>' 
-            document.getElementById("countryAdata").innerHTML = countryAhtml;
-    
+            document.getElementById("countryAdata").innerHTML = countryAhtml;    
         }
     };
     xhttp.open("POST", "database/request_handler.php", true);

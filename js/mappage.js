@@ -162,8 +162,7 @@ function getCountryInfo(countryName)
     var params = "getCountryInfo=1&country=" + countryName;
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
-        if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) { 
-            console.log(this.responseText);
+        if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) {             
             
             var responseJSON = JSON.parse(this.responseText);
             var outPutStr = "Country: " + countryName + "\nPlug: " + responseJSON.plug + "\nVoltage: " + responseJSON.voltage + "\nFrequency: " + responseJSON.frequency;
