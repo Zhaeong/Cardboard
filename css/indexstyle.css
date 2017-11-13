@@ -160,13 +160,18 @@ li a:hover {
 }
     /* header */
 th {
-    font-family: Oswald_Light;
+    font-family: RobotoSlab;
     font-size: 40px;
 }
     /* cell */
 td {
-    font-family: Roboto_Light;
+    font-family: Roboto_Thin;
     font-size: 18px;
+    color: #f7f7f7;
+}
+td:nth-child(1) {
+    color: #ffca00;
+    font-family: Roboto_Light;
 }
     /* row */
 tr {
