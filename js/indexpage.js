@@ -10,15 +10,16 @@ function getPlugFacts()
     var countryAname = document.getElementById("countryA").value;
     var countryBname = document.getElementById("countryB").value;
     
-    
+    console.log(countryAname);
     
     var params = "getPlugFacts=1&countryA=" + countryAname + "&countryB=" + countryBname;
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) { 
+            console.log(this.responseText);
             
             var responseJSON = JSON.parse(this.responseText);
-            console.log(this.responseText);    
+                
             
             var countryAhtml = '';
     

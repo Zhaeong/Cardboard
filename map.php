@@ -14,8 +14,6 @@
 
 <?php include('staticPageElements/nav_bar.php'); ?>
 
-
-<p> This is map page</p>
 <div id="map"></div>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT2XWLfjJof69JsiuMChKsRoT84CY-ao0&callback=initMap"
     async defer></script>

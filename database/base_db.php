@@ -85,4 +85,26 @@ class databaseObj {
         $output['CountryB'] = $rowB; 
         return $output;
     } 
+    function getCountryInfoSingle($country)
+    {        
+        if($this->link === false){
+            echo "ERROR: Could not connect. " . mysqli_connect_error();
+        }
+        $sqlA = "SELECT country, plug, voltage, frequency 
+            FROM cardboard.powerswitches 
+            WHERE country = '" . $country ."';";
+        
+        //return $sql;
+        $result = mysqli_query($this->link, $sqlA);   
+        
+        if (!$result) {
+            die('Could not query:' . mysql_error());
+        }       
+        
+        $row = mysqli_fetch_assoc($result);  
+        mysqli_free_result($result);
+        
+        
+        return $row;
+    } 
 } 

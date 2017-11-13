@@ -13,6 +13,17 @@ if(isset($_POST['getPlugFacts']) && isset($_POST['countryA']) && isset($_POST['c
     echo $countryInfoJSON;
     
 }
+else if(isset($_POST['getCountryInfo']) && isset($_POST['country']))
+{
+    $dbObj = new databaseObj();
+    
+    $country = $_POST['country'];
+    
+    $countryInfo = $dbObj->getCountryInfoSingle($country);
+    $countryInfoJSON = json_encode($countryInfo);
+    echo $countryInfoJSON;
+    
+}
 else
 {
     echo "database call failed";
