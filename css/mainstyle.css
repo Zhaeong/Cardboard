@@ -1,24 +1,29 @@
 
 
 /* TYPEFACES */
-@font-face {
+@font-face { /* thin title sans */
 font-family: Bungee;
 src: url(../fonts/Bungee-Hairline.otf);
 }
-@font-face {
+@font-face { /* thin body sans */
 font-family: Quicksand_Light;
 src: url(../fonts/Quicksand_Light.otf);
 }
-@font-face {
+@font-face { /* funky condensed body sans */
 font-family: Oswald;
 src: url(../fonts/Oswald-Regular.ttf);
-}@font-face {
+}
+@font-face { /* above, but light */
 font-family: Oswald_Light;
 src: url(../fonts/Oswald-Light.ttf);
 }
-@font-face {
-font-family: Roboto_Light;
+@font-face { /* thin body sans */
+font-family: Roboto_Thin;
 src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face { /* light girly modern serif */
+font-family: RobotoSlab;
+src: url(../fonts/RobotoSlab-Light.ttf);
 }
 
 
@@ -39,13 +44,13 @@ h1   {
     /* small heading */
 h2   {
     color: #f7f7f7;
-    font-family: Roboto_Light, Helvetica;
-    font-size: 30px;
+    font-family: RobotoSlab, Helvetica;
+    font-size: 40px;
     margin: 0;
 }
 p    {
     color: #f7f7f7;
-    font-family: Roboto_Light, Helvetica;
+    font-family: Roboto_Thin, Helvetica;
     font-size: 18px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -113,7 +118,7 @@ th {
     /* cell */
 td {
     font-family: Roboto_Light;
-    font-size: 15px;
+    font-size: 18px;
 }
     /* row */
 tr {

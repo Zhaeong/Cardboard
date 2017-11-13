@@ -18,7 +18,7 @@
 </ul>
 
 <p> <br> <br> Please enter two countries/states/territories.</p>
-<h2> Show me the plug types in...</h2>
+<h2> Show me the plug types in . . .</h2>
 <p> <br>
 <?php
     include 'database/base_db.php';
