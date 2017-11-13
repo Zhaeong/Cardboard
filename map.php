@@ -2,7 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="css/mainstyle.css">
-  <script src="js/mainpage.js"></script> 
+  <script src="js/indexpage.js"></script> 
   <script src="js/mappage.js"></script> 
   
 

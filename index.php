@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="css/mainstyle.css">
-  <script src="js/mainpage.js"></script> 
+  <link rel="stylesheet" href="css/indexstyle.css">
+  <script src="js/indexpage.js"></script> 
   <title>Pluug</title>
 </head>
 <body>

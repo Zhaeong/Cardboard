@@ -128,6 +128,6 @@ tr {
 tr:nth-child(even) {background-color: #46484a}
 
 #map {
-        height: 400px;
+        height: 480px;
         width: 100%;
        }
