@@ -21,6 +21,10 @@ src: url(../fonts/Oswald-Light.ttf);
 font-family: Roboto_Thin;
 src: url(../fonts/Roboto-Thin.ttf);
 }
+@font-face { /* the heavier version */
+font-family: Roboto_Light;
+src: url(../fonts/Roboto-Light.ttf);
+}
 @font-face { /* light girly modern serif */
 font-family: RobotoSlab;
 src: url(../fonts/RobotoSlab-Light.ttf);
@@ -99,9 +103,28 @@ li a:hover {
 }
 
 
+
+/* INPUT LISTS */
+#countryA {
+    height: 30px;
+    width: 300px;
+    margin-left: 14px;
+    margin-right: 40px;
+    font-family: Roboto_Light, Helvetica;
+    font-size: 18px;
+}
+#countryB {
+    height: 30px;
+    width: 300px;
+    margin-left: 14px;
+    font-family: Roboto_Light, Helvetica;
+    font-size: 18px;
+}
+
+
+
 /* TABLE */
-#outputTable
-{
+#outputTable {
     border: 3px solid #ffca00;
     width: 100%;
     background-color: #5a5c5e;
@@ -131,3 +154,4 @@ tr:nth-child(even) {background-color: #46484a}
         height: 480px;
         width: 100%;
        }
+

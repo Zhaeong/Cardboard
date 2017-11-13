@@ -12,18 +12,18 @@
 <?php include('staticPageElements/nav_bar.php'); ?>
 
 
-<p> <br> <br> Please enter two countries/states/territories.</p>
-<h2> Show me the plug types in . . .</h2>
+<h2> <br> What plug types do they use in . . .</h2>
+<p> Please enter two countries/states/territories.</p>
 <p> <br>
 <?php
     include 'database/base_db.php';
     $dbObj = new databaseObj();
     echo '
     <label for="color">Location 1</label>
-    <input list="countries" id="countryA">
+    <input list="countries" id="countryA" placeholder="Country / State / Territory">
     
     <label for="color">Location 2</label>
-    <input list="countries" id="countryB">';
+    <input list="countries" id="countryB" placeholder="Country / State / Territory">';
     
     echo '<datalist id="countries">';
         echo $dbObj->getCountryOptions();    
