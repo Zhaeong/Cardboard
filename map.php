@@ -22,6 +22,11 @@
     //AIzaSyDT2XWLfjJof69JsiuMChKsRoT84CY-ao0 
     ?>
 </p>
+
+<p>TO-DO: <br>
+catch exceptions for countries w/o data; <br>
+write 'for a full list of countries click /here/' msg;
+</p>
     
 </body>
 </html>
