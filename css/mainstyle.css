@@ -126,3 +126,8 @@ tr {
     text-align: left;
 }
 tr:nth-child(even) {background-color: #46484a}
+
+#map {
+        height: 400px;
+        width: 100%;
+       }

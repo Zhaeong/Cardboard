@@ -29,11 +29,6 @@ function getPlugFacts()
                 + '<th>' + responseJSON.CountryB.country + '</th>'
             + '</tr>'
             + '<tr>'
-                + '<td>Plug Type(s)</td>'
-                + '<td>' + responseJSON.CountryA.plug + '</td>'
-                + '<td>' + responseJSON.CountryB.plug + '</td>'
-            + '</tr>'
-            + '<tr>'
                 + '<td>Voltage</td>'
                 + '<td>' + responseJSON.CountryA.voltage + ' V </td>'
                 + '<td>' + responseJSON.CountryB.voltage + ' V </td>'
@@ -43,7 +38,11 @@ function getPlugFacts()
                 + '<td>' + responseJSON.CountryA.frequency + ' Hz </td>'
                 + '<td>' + responseJSON.CountryB.frequency + ' Hz </td>'
             + '</tr>'
-            
+                        + '<tr>'
+                + '<td>Plug Type(s)</td>'
+                + '<td>' + responseJSON.CountryA.plug + '</td>'
+                + '<td>' + responseJSON.CountryB.plug + '</td>'
+            + '</tr>'
 
             countryAhtml += '</table>' 
             document.getElementById("countryAdata").innerHTML = countryAhtml;
