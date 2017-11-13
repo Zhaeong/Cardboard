@@ -9,13 +9,8 @@
 
 <h1 style="text-align:center;"> plug-related title </h1>
 
-<!--NAVIGATION BAR-->
-<ul>
-  <li><a href="index.php">HOME</a></li>
-  <li><a href="map.asp">MAP</a></li>
-  <li><a href="about.asp">ABOUT</a></li>
-  <li><a href="contact.asp">CONTACT</a></li>
-</ul>
+<?php include('staticPageElements/nav_bar.php'); ?>
+
 
 <p> <br> <br> Please enter two countries/states/territories.</p>
 <h2> Show me the plug types in...</h2>
