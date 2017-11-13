@@ -13,7 +13,7 @@
 
 
 <h2> <br> What plug types do they use in . . .</h2>
-<p> Please enter two countries/states/territories.</p>
+<p> Please enter two countries / states / territories.</p>
 <p> <br>
 <?php
     include 'database/base_db.php';
@@ -30,7 +30,7 @@
     echo '</datalist>';
     
     
-    echo '     <button onclick="getPlugFacts()">Compare</button> ';
+    echo '     <button onclick="getPlugFacts()" id="button_compare">Compare</button> ';
     echo '
         <div class = "countryDisplay" id = "countryAdata">
         </div>

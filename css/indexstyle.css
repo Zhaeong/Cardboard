@@ -106,21 +106,46 @@ li a:hover {
 
 /* INPUT LISTS */
 #countryA {
-    height: 30px;
-    width: 300px;
+    height: 40px;
+    width: 370px;
     margin-left: 14px;
     margin-right: 40px;
+    padding-left: 10px;
     font-family: Roboto_Light, Helvetica;
-    font-size: 18px;
+    font-size: 20px;
 }
 #countryB {
-    height: 30px;
-    width: 300px;
+    height: 40px;
+    width: 370px;
     margin-left: 14px;
+    padding-left: 10px;
     font-family: Roboto_Light, Helvetica;
-    font-size: 18px;
+    font-size: 20px;
 }
+#button_compare {
+    background-color: #fbd562;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 6px 6px 3px 0 #202020;
 
+    height: 45px;
+
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    color: #28292b;
+    font-family: Oswald, Helvetica;
+    font-size: 18px;
+
+    /* hover transition time */
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+#button_compare:hover {
+    background-color: #ffca00;
+    color: #202020;
+}
 
 
 /* TABLE */
