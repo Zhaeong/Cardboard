@@ -125,7 +125,7 @@ li a:hover {
 #button_compare {
     background-color: #fbd562;
     border: none;
-    border-radius: 100px;
+    border-radius: 2px;
     box-shadow: 6px 6px 3px 0 #202020;
 
     height: 45px;
