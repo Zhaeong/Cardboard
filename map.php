@@ -20,6 +20,7 @@
 <p> <br>
 
 </p>
+
 <div id="myModal" class="modal">
 
   <!-- Modal content -->
@@ -32,6 +33,13 @@
   </div>
 
 </div>
+
+
+<p>TO-DO: <br>
+catch exceptions for countries w/o data; <br>
+write 'for a full list of countries click /here/' msg;
+</p>
+    
 </body>
 <footer>
     <script src="js/mappage.js"></script> 

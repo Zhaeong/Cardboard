@@ -38,15 +38,13 @@ body {
     margin-left: 100px;
     margin-right: 100px;
 }
-    /* title */
-h1   {
+h1   { /* title */
     color: #f7f7f7;
     font-family: Bungee, Helvetica;
     font-size: 82px;
     margin: 30px;
 }
-    /* small heading */
-h2   {
+h2   { /* small heading */
     color: #f7f7f7;
     font-family: RobotoSlab, Helvetica;
     font-size: 40px;
