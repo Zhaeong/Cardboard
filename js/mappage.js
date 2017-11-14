@@ -4,6 +4,30 @@
  * and open the template in the editor.
  */
 
+var modal = document.getElementById('myModal');
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+/*
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+*/
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 
 var map;
 function initMap() {
@@ -162,11 +186,14 @@ function getCountryInfo(countryName)
     var params = "getCountryInfo=1&country=" + countryName;
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
-        if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) {             
+        if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) { 
+            modal.style.display = "block";
+            var responseJSON = JSON.parse(this.responseText);            
             
-            var responseJSON = JSON.parse(this.responseText);
-            var outPutStr = "Country: " + countryName + "\nPlug: " + responseJSON.plug + "\nVoltage: " + responseJSON.voltage + "\nFrequency: " + responseJSON.frequency;
-            alert(outPutStr);
+            document.getElementById("modalCountryName").innerHTML = countryName;  
+            document.getElementById("modalFreq").innerHTML = responseJSON.frequency;  
+            document.getElementById("modalVoltage").innerHTML = responseJSON.voltage;  
+            document.getElementById("modalPlug").innerHTML = responseJSON.plug;  
              
         }
     };
@@ -175,4 +202,4 @@ function getCountryInfo(countryName)
     xhttp.send(params);      
   }
 
-  
+

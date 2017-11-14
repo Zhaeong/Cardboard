@@ -3,7 +3,7 @@
 <head>
   <link rel="stylesheet" href="css/indexstyle.css">
   <script src="js/indexpage.js"></script> 
-  <script src="js/mappage.js"></script> 
+  
   
 
   <title>Pluug Map</title>
@@ -18,11 +18,23 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT2XWLfjJof69JsiuMChKsRoT84CY-ao0&callback=initMap"
     async defer></script>
 <p> <br>
-<?php
-    //AIzaSyDT2XWLfjJof69JsiuMChKsRoT84CY-ao0 
-    ?>
+
 </p>
-    
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id = "modalCountryName"></div>
+    <div id = "modalFreq"></div>
+    <div id = "modalVoltage">.</div>
+    <div id = "modalPlug"></div>
+  </div>
+
+</div>
 </body>
+<footer>
+    <script src="js/mappage.js"></script> 
+</footer>
 </html>
 
