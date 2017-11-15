@@ -194,7 +194,7 @@ tr:nth-child(even) {background-color: #46484a}
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.2);  Black w/ opacity */
+    background-color: rgba(0,0,0,0.2);  /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -225,17 +225,25 @@ tr:nth-child(even) {background-color: #46484a}
 #modalCountryName
 {
     color: blue;
+    font-family: Roboto_Light;
+    font-size: 18px;
 
 }
 #modalFreq
 {
     color: green;
+    font-family: Roboto_Light;
+    font-size: 18px;
 }
 #modalVoltage
 {
     color: greenyellow;
+    font-family: Roboto_Light;
+    font-size: 18px;
 }
 #modalPlug
 {
     color: red;
+    font-family: Roboto_Light;
+    font-size: 18px;
 }
