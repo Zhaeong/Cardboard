@@ -187,31 +187,27 @@ tr:nth-child(even) {background-color: #46484a}
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 320px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.2);  /* Black w/ opacity */
 }
 
 /* Modal Content */
 .modal-content {
-    background-color: #fefefe;
+    background-color:rgba(33, 33, 33, 0.65);
     margin: auto;
-    margin-top: 300px;
-    padding: 20px;
-    border: 0px solid #888;
-    width: 80%;
+    padding: 30px;
+    border-radius: 5px;
+    width: 60%;
 }
 
-/* The Close Button */
 .close {
     color: #aaaaaa;
     float: right;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -224,26 +220,25 @@ tr:nth-child(even) {background-color: #46484a}
 
 #modalCountryName
 {
-    color: blue;
-    font-family: Roboto_Light;
-    font-size: 18px;
-
-}
-#modalFreq
-{
-    color: green;
-    font-family: Roboto_Light;
-    font-size: 18px;
+    color: #ffca00;
+    font-family: RobotoSlab;
+    font-size: 40px;
 }
 #modalVoltage
 {
-    color: greenyellow;
+    color: #f7f7f7;
+    font-family: Roboto_Light;
+    font-size: 18px;
+}
+#modalFreq
+{
+    color: #f7f7f7;
     font-family: Roboto_Light;
     font-size: 18px;
 }
 #modalPlug
 {
-    color: red;
+    color: #f7f7f7;
     font-family: Roboto_Light;
     font-size: 18px;
 }

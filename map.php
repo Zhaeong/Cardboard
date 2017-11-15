@@ -27,8 +27,8 @@
   <div class="modal-content">
     <span class="close">&times;</span>
     <div id = "modalCountryName"></div>
-    <div id = "modalFreq"></div>
     <div id = "modalVoltage">.</div>
+    <div id = "modalFreq"></div>
     <div id = "modalPlug"></div>
   </div>
 

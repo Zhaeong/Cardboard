@@ -191,9 +191,9 @@ function getCountryInfo(countryName)
             var responseJSON = JSON.parse(this.responseText);            
             
             document.getElementById("modalCountryName").innerHTML = countryName;  
-            document.getElementById("modalFreq").innerHTML = responseJSON.frequency;  
-            document.getElementById("modalVoltage").innerHTML = responseJSON.voltage;  
-            document.getElementById("modalPlug").innerHTML = responseJSON.plug;  
+            document.getElementById("modalVoltage").innerHTML = '<br> Voltage: ' + responseJSON.voltage + ' V';  
+            document.getElementById("modalFreq").innerHTML = 'Frequency: ' + responseJSON.frequency + ' Hz';  
+            document.getElementById("modalPlug").innerHTML = 'Plug Type(s): ' + responseJSON.plug;  
              
         }
     };
