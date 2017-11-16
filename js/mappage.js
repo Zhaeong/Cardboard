@@ -42,7 +42,7 @@ function initMap() {
             "elementType": "geometry",
             "stylers": [
               {
-                "color": /*#add4f2*/ "#8aa9c1"
+                "color": /*"#add4f2" "#8aa9c1"*/  "#949494"
               }
             ]
           },
@@ -58,7 +58,7 @@ function initMap() {
             "elementType": "labels.text.stroke",
             "stylers": [
               {
-                "color": "#ffffff"
+                "color": "#ececec"
               }
             ]
           },
@@ -100,7 +100,7 @@ function initMap() {
         },{
           featureType: "landscape.natural",
           stylers: [
-            { visibility: "off" }
+            { color: '#c9c5c5' }
           ]
         },{
           featureType: "poi",
