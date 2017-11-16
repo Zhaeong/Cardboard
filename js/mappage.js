@@ -42,7 +42,7 @@ function initMap() {
             "elementType": "geometry",
             "stylers": [
               {
-                "color": "#242f3e"
+                "color": /*#add4f2*/ "#8aa9c1"
               }
             ]
           },
@@ -50,7 +50,7 @@ function initMap() {
             "elementType": "labels.text.fill",
             "stylers": [
               {
-                "color": "#000000"
+                "color": "#404040"
               }
             ]
           },
