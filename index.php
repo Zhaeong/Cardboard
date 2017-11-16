@@ -17,7 +17,7 @@
 <p> <br>
 <?php
     include 'database/base_db.php';
-    $dbObj = new databaseObj();
+    //$dbObj = new databaseObj();
     echo '
     <label for="color">Location 1</label>
     <input list="countries" id="countryA" placeholder="Country / Territory">
@@ -26,7 +26,7 @@
     <input list="countries" id="countryB" placeholder="Country / Territory">';
     
     echo '<datalist id="countries">';
-        echo $dbObj->getCountryOptions();    
+        //echo $dbObj->getCountryOptions();    
     echo '</datalist>';
     
     
