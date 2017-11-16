@@ -43,6 +43,8 @@ h1   { /* title */
     font-family: Bungee, Helvetica;
     font-size: 82px;
     margin: 30px;
+    text-align: center;
+    text-decoration: none;
 }
 h2   { /* small heading */
     color: #f7f7f7;

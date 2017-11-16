@@ -7,7 +7,10 @@
 </head>
 <body>
 
-<h1 style="text-align:center;"> plug-related title </h1>
+
+<a href="index.php"
+style="text-decoration: none;"
+> <h1> plug-related title </h1> </a>
 
 <?php include('staticPageElements/nav_bar.php'); ?>
 
@@ -44,7 +47,6 @@
     style drop down list entries; <br>
     figure out why drop down list doesn't 
     autocomplete from the first letter; <br>
-    link logo to index.php;
 </p>
 
 </body>
