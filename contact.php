@@ -2,9 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="css/indexstyle.css">
-  <script src="js/indexpage.js"></script> 
-  <script src="js/mappage.js"></script> 
-  
+
 
   <title>Contact</title>
 </head>
