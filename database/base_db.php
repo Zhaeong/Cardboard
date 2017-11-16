@@ -29,18 +29,18 @@ class databaseObj {
         if($this->link === false){
             echo "ERROR: Could not connect. " . mysqli_connect_error();
         }
-        $sql = "SELECT Country "
-                . "FROM PowerSwitches ";
+        $sql = "SELECT country "
+                . "FROM powerswitches";
         
         //return $sql;
         $result = mysqli_query($this->link, $sql);        
         
-        
+        //return print_r($result);
         $output = '';
         while($row = mysqli_fetch_assoc($result))
         {
             $output .= '<option value="';
-            $output .= $row['Country'];    
+            $output .= $row['country'];    
             $output .= '">';
         }
         
@@ -54,14 +54,14 @@ class databaseObj {
             echo "ERROR: Could not connect. " . mysqli_connect_error();
         }
         $sqlA = "SELECT country, plug, voltage, frequency 
-            FROM cardboard.powerswitches 
+            FROM powerswitches 
             WHERE country = '" . $countryA ."';";
         
         //return $sql;
         $result = mysqli_query($this->link, $sqlA);   
         
         if (!$result) {
-            die('Could not query:' . mysql_error());
+            die('Could not query:' . mysqli_error($this->link));
         }       
         
         $row = mysqli_fetch_assoc($result);
@@ -71,7 +71,7 @@ class databaseObj {
         mysqli_free_result($result);
         
         $sqlB = "SELECT country, plug, voltage, frequency 
-            FROM cardboard.powerswitches 
+            FROM powerswitches 
             WHERE country = '" . $countryB ."';";
         
         //return $sql;
@@ -91,7 +91,7 @@ class databaseObj {
             echo "ERROR: Could not connect. " . mysqli_connect_error();
         }
         $sqlA = "SELECT country, plug, voltage, frequency 
-            FROM cardboard.powerswitches 
+            FROM powerswitches 
             WHERE country = '" . $country ."';";
         
         //return $sql;

@@ -16,7 +16,7 @@ function getPlugFacts()
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) {             
-            
+            console.log(this.responseText);
             var responseJSON = JSON.parse(this.responseText);  
             var countryAhtml = '';
     
