@@ -7,10 +7,10 @@
  */
 
 class databaseObj {
-    public $databaseIp = '192.168.1.111:9001';    
-    public $user = 'testuser';    
-    public $pass = 'testpass';    
-    public $databaseName = 'cardboard';
+    public $databaseIp = '914f3017-75eb-4690-820c-a82d0037f145.mysql.sequelizer.com';    
+    public $user = 'uonbwrkplyfkjcpw';    
+    public $pass = 'F6JCfZFFzW7KmXsJTB5RT4LtTf7dSsUvEBTCJoN7a8LeSWyLMKM4j2iKtpRa2CWh';    
+    public $databaseName = 'db914f301775eb4690820ca82d0037f145';
     private $link;   
    
     function databaseObj() {
