@@ -41,7 +41,7 @@ function initMap() {
         {
             "elementType": "geometry",
             "stylers": [
-              {
+              { /* water */
                 "color": /*"#add4f2" "#8aa9c1"*/  "#949494"
               }
             ]

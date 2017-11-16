@@ -42,7 +42,9 @@
 <p> <br><br> TO-DO: <br>
 	check font licences; <br>
     style drop down list entries; <br>
-    figure out why drop down list doesn't autocomplete from the first letter;
+    figure out why drop down list doesn't 
+    autocomplete from the first letter; <br>
+    link logo to index.php;
 </p>
 
 </body>

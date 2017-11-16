@@ -37,7 +37,8 @@
 <p>TO-DO: <br>
 catch exceptions for countries w/o data; <br>
 write 'for a full list of countries click /here/' msg; <br>
-sync country names w/google;
+make map cover all mini countries; <br>
+make modal display country_display;
 </p>
     
 </body>
