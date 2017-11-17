@@ -75,13 +75,11 @@ ul {
     font-family: Oswald;
     font-size: 22px;
 }
-
     /* \Remove the line breaks before and after each 
     list item to display them on one line */
 li {
     display: inline;
 }
-
 li a {
     display: inline-block;
     color: #2f2f2f;
@@ -92,7 +90,6 @@ li a {
     padding-right: 30px;
     text-decoration: none;
 }
-
     /* Change the link color on hover */
 li a:hover {
     background-color: #fbd562;
@@ -101,6 +98,7 @@ li a:hover {
 .active {
     background-color: #4CAF50;
 }
+
 
 
 
@@ -149,6 +147,9 @@ li a:hover {
 #button_compare:focus {outline:0;}
 
 
+
+
+
 /* TABLE */
 #outputTable {
     border: 3px solid #ffca00;
@@ -181,6 +182,10 @@ tr {
 }
 tr:nth-child(even) {background-color: #46484a}
 
+
+
+
+/* MAP */
 #map {
         height: 480px;
         width: 100%;
@@ -198,7 +203,10 @@ tr:nth-child(even) {background-color: #46484a}
     overflow: auto; /* Enable scroll if needed */
 }
 
-/* Modal Content */
+
+
+
+/* MODAL */
 .modal-content {
     background-color:rgba(33, 33, 33, 0.65);
     margin: auto;

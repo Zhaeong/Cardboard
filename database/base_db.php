@@ -19,17 +19,14 @@ class databaseObj {
     function connectDB() {
         $this->link = mysqli_connect($this->databaseIp, $this->user, $this->pass, $this->databaseName); 
     }
-    
-    function disconnectDB()
-    {
+    function disconnectDB() {
         mysqli_close($this->link);        
     }  
-    function getCountryOptions()
-    {
+    function getCountryOptions() {
         if($this->link === false){
             echo "ERROR: Could not connect. " . mysqli_connect_error();
         }
-        $sql = "SELECT country "
+        $sql = "SELECT country_display "
                 . "FROM powerswitches";
         
         //return $sql;
@@ -40,10 +37,9 @@ class databaseObj {
         while($row = mysqli_fetch_assoc($result))
         {
             $output .= '<option value="';
-            $output .= $row['country'];    
+            $output .= $row['country_display'];    
             $output .= '">';
         }
-        
         return $output;
     }    
     
@@ -53,9 +49,9 @@ class databaseObj {
         if($this->link === false){
             echo "ERROR: Could not connect. " . mysqli_connect_error();
         }
-        $sqlA = "SELECT country, plug, voltage, frequency 
+        $sqlA = "SELECT country_display, plug, voltage, frequency 
             FROM powerswitches 
-            WHERE country = '" . $countryA ."';";
+            WHERE country_display = '" . $countryA ."';";
         
         //return $sql;
         $result = mysqli_query($this->link, $sqlA);   
@@ -70,9 +66,9 @@ class databaseObj {
         
         mysqli_free_result($result);
         
-        $sqlB = "SELECT country, plug, voltage, frequency 
+        $sqlB = "SELECT country_display, plug, voltage, frequency 
             FROM powerswitches 
-            WHERE country = '" . $countryB ."';";
+            WHERE country_display = '" . $countryB ."';";
         
         //return $sql;
         $resultB = mysqli_query($this->link, $sqlB);   
@@ -85,6 +81,7 @@ class databaseObj {
         $output['CountryB'] = $rowB; 
         return $output;
     } 
+
     function getCountryInfoSingle($country)
     {        
         if($this->link === false){

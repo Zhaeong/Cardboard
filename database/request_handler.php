@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 include 'base_db.php';
 
@@ -13,11 +13,11 @@ if(isset($_POST['getPlugFacts']) && isset($_POST['countryA']) && isset($_POST['c
     echo $countryInfoJSON;
     
 }
-else if(isset($_POST['getCountryInfo']) && isset($_POST['country']))
+else if(isset($_POST['getCountryInfo']) && isset($_POST['country_display']))
 {
     $dbObj = new databaseObj();
     
-    $country = $_POST['country'];
+    $country = $_POST['country_display'];
     
     $countryInfo = $dbObj->getCountryInfoSingle($country);
     $countryInfoJSON = json_encode($countryInfo);
