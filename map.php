@@ -6,7 +6,7 @@
   
   
 
-  <title>Pluug Map</title>
+  <title>Map</title>
 </head>
 <body>
 
