@@ -23,19 +23,19 @@ style="text-decoration: none;"
     $dbObj = new databaseObj();
     echo '
     <label for="color">Location 1</label>
-    <input list="country_list" id="countryA" placeholder="Country / Territory">
+    <input list="countries" id="countryA" placeholder="Country / Territory">
     
     <label for="color">Location 2</label>
-    <input list="country_list" id="countryB" placeholder="Country / Territory">';
+    <input list="countries" id="countryB" placeholder="Country / Territory">';
     
-    echo '<datalist id="country_list">';
+    echo '<datalist id="countries">';
         echo $dbObj->getCountryOptions();    
     echo '</datalist>';
     
     
     echo '     <button onclick="getPlugFacts()" id="button_compare">Compare</button> ';
     echo '
-        <div class="countryDisplay" id="countryAdata">
+        <div class = "countryDisplay" id = "countryAdata">
         </div>
         ';
     ?>
@@ -47,7 +47,6 @@ style="text-decoration: none;"
     style drop down list entries; <br>
     figure out why drop down list doesn't 
     autocomplete from the first letter; <br>
-    allow special characters (ô, é) in sql;
 </p>
 
 </body>
