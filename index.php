@@ -8,10 +8,6 @@
 <body>
 
 
-<a href="index.php"
-style="text-decoration: none;"
-> <h1> plug-related title </h1> </a>
-
 <?php include('staticPageElements/nav_bar.php'); ?>
 
 
@@ -47,8 +43,16 @@ style="text-decoration: none;"
     style drop down list entries | datalist can't be styled <br>
     figure out why drop down list doesn't 
     autocomplete from the first letter; | always matches any substring can't be changed <br>
-    allow special characters (ô, é) in sql;
+    allow special characters (ô, é) in sql; <br>
+    <br>
 </p>
+
+
+<p> Data sourced from 
+    <a href="http://www.iec.ch/worldplugs/?ref=extfooter"
+    style="color:#fbd562;">The International Electrotechnical Commission</a>. 
+    Please <a href="contact.php"
+    style="color:#fbd562;">contact us</a> for any corrections or suggestions. </p>
 
 </body>
 </html>

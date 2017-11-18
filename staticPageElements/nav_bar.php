@@ -1,7 +1,15 @@
+<!--TITLE-->
+<div id="title">
+    <a href="index.php">
+        <h1> git me dem plugs </h1> 
+    </a>
+</div>
+
+
 <!--NAVIGATION BAR-->
 <ul>
-  <li><a href="index.php">HOME</a></li>
-  <li><a href="map.php">MAP</a></li>
-  <li><a href="about.php">ABOUT</a></li>
-  <li><a href="contact.php">CONTACT</a></li>
+  <li><a href="index.php">home</a></li>
+  <li><a href="map.php">map</a></li>
+  <li><a href="about.php">about</a></li>
+  <li><a href="contact.php">contact</a></li>
 </ul>

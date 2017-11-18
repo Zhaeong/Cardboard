@@ -13,7 +13,7 @@ src: url(../fonts/Quicksand_Light.otf);
 font-family: Oswald;
 src: url(../fonts/Oswald-Regular.ttf);
 }
-@font-face { /* above, but light */
+@font-face {
 font-family: Oswald_Light;
 src: url(../fonts/Oswald-Light.ttf);
 }
@@ -21,7 +21,7 @@ src: url(../fonts/Oswald-Light.ttf);
 font-family: Roboto_Thin;
 src: url(../fonts/Roboto-Thin.ttf);
 }
-@font-face { /* the heavier version */
+@font-face {
 font-family: Roboto_Light;
 src: url(../fonts/Roboto-Light.ttf);
 }
@@ -39,12 +39,13 @@ body {
     margin-right: 100px;
 }
 h1   { /* title */
-    color: #f7f7f7;
     font-family: Bungee, Helvetica;
     font-size: 82px;
-    margin: 30px;
+    margin: auto;
     text-align: center;
+    color: #f7f7f7;
     text-decoration: none;
+    width: 100%;
 }
 h2   { /* small heading */
     color: #f7f7f7;
@@ -59,7 +60,9 @@ p    {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
+a {
+    text-decoration: none;
+}
 
 
 
@@ -75,13 +78,11 @@ ul {
     font-family: Oswald;
     font-size: 22px;
 }
-
-    /* \Remove the line breaks before and after each 
+    /* Remove the line breaks before and after each 
     list item to display them on one line */
 li {
     display: inline;
 }
-
 li a {
     display: inline-block;
     color: #2f2f2f;
@@ -92,7 +93,6 @@ li a {
     padding-right: 30px;
     text-decoration: none;
 }
-
     /* Change the link color on hover */
 li a:hover {
     background-color: #fbd562;
