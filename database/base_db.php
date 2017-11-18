@@ -91,7 +91,7 @@ class databaseObj {
         if($this->link === false){
             echo "ERROR: Could not connect. " . mysqli_connect_error();
         }
-        $sqlA = "SELECT country, plug, voltage, frequency 
+        $sqlA = "SELECT country, plug, voltage, frequency, country_display  
             FROM powerswitches 
             WHERE country = '" . $country ."';";
         

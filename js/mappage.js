@@ -190,7 +190,7 @@ function getCountryInfo(countryName)
             modal.style.display = "block";
             var responseJSON = JSON.parse(this.responseText);            
             
-            document.getElementById("modalCountryName").innerHTML = countryName;  
+            document.getElementById("modalCountryName").innerHTML = responseJSON.country_display;  
             document.getElementById("modalVoltage").innerHTML = '<br> Voltage: ' + responseJSON.voltage + ' V';  
             document.getElementById("modalFreq").innerHTML = 'Frequency: ' + responseJSON.frequency + ' Hz';  
             document.getElementById("modalPlug").innerHTML = 'Plug Type(s): ' + responseJSON.plug;  
