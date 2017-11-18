@@ -15,7 +15,7 @@ style="text-decoration: none;"
 <?php include('staticPageElements/nav_bar.php'); ?>
 
 
-<h2> <br> What plug types do they use in . . .</h2>
+<h2> <br> What electric plugs do they use in . . .</h2>
 <p> Please enter two countries / territories.</p>
 <p> <br>
 <?php
@@ -44,9 +44,9 @@ style="text-decoration: none;"
 <!--BODY TEXT-->
 <p> <br><br> TO-DO: <br>
 	check font licences; <br>
-    style drop down list entries; <br>
+    style drop down list entries | datalist can't be styled <br>
     figure out why drop down list doesn't 
-    autocomplete from the first letter; <br>
+    autocomplete from the first letter; | always matches any substring can't be changed <br>
     allow special characters (ô, é) in sql;
 </p>
 
