@@ -10,9 +10,12 @@
 
 <?php include('staticPageElements/nav_bar.php'); ?>
 
-
+<div id="div_prompt">
 <h2> <br> What electric plugs do they use in . . .</h2>
 <p> Please enter two countries / territories.</p>
+</div>
+
+<div id="div_input">
 <p> <br>
 <?php
     include 'database/base_db.php';
@@ -36,6 +39,7 @@
         ';
     ?>
 </p>
+</div>
     
 <!--BODY TEXT-->
 <p> <br><br> TO-DO: <br>
@@ -47,12 +51,13 @@
     <br>
 </p>
 
-
-<p> Data sourced from 
+<div class="footer">
+Data sourced from 
     <a href="http://www.iec.ch/worldplugs/?ref=extfooter"
     style="color:#fbd562;">The International Electrotechnical Commission</a>. 
     Please <a href="contact.php"
-    style="color:#fbd562;">contact us</a> for any corrections or suggestions. </p>
+    style="color:#fbd562;">contact us</a> for any corrections or suggestions.
+</div>
 
 </body>
 </html>

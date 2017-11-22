@@ -63,6 +63,17 @@ p    {
 a {
     text-decoration: none;
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 13px;
+    width: 100%;
+    text-align: center;
+    color: #f7f7f7;
+    font-family: Roboto_Thin, Helvetica;
+    font-size: 15px;
+}
+
 
 
 
@@ -108,8 +119,6 @@ li a:hover {
 #countryA {
     height: 40px;
     width: 370px;
-    margin-left: 14px;
-    margin-right: 40px;
     padding-left: 10px;
     font-family: Roboto_Light, Helvetica;
     font-size: 20px;
@@ -117,7 +126,6 @@ li a:hover {
 #countryB {
     height: 40px;
     width: 370px;
-    margin-left: 14px;
     padding-left: 10px;
     font-family: Roboto_Light, Helvetica;
     font-size: 20px;
