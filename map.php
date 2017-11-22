@@ -32,11 +32,12 @@
 </div>
 
 
-<p>TO-DO: <br>
+<p style="margin-bottom: 50px;">TO-DO: <br>
 catch exceptions for countries w/o data; <br>
 write 'for a full list of countries click /here/' msg; <br>
 make map cover all mini countries; <br>
-make modal display country_display;
+some task; <br>
+some task; <br>
 </p>
     
 </body>

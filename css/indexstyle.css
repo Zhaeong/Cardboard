@@ -63,6 +63,7 @@ p    {
 a {
     text-decoration: none;
 }
+
 .footer {
     position: fixed;
     left: 0;
@@ -73,7 +74,6 @@ a {
     font-family: Roboto_Thin, Helvetica;
     font-size: 15px;
 }
-
 
 
 
