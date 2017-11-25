@@ -12,7 +12,7 @@
 </div>
 
 <div id="actualbody">
-    <div id="div_prompt">
+    <div id="div_prompt" style="margin-top: 140px;">
     <h2> Compare the electric plugs <br>
         used in different areas of the world. <br>
     </h2>
@@ -50,9 +50,6 @@
     <!--BODY TEXT-->
     <p> <br><br> TO-DO: <br>
     	check font licences; <br>
-        style drop down list entries | datalist can't be styled <br>
-        figure out why drop down list doesn't 
-        autocomplete from the first letter; | always matches any substring can't be changed <br>
         allow special characters (ô, é) in sql; <br>
         <br>
     </p>

@@ -79,8 +79,6 @@ a {
 }
 
 
-
-
 /* NAVIGATION BAR */
 .navbar {
     list-style-type: none;
@@ -124,7 +122,6 @@ a {
     color: #ffffff;
 }
 #actualbody {
-    margin-top: 140px;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -218,6 +215,7 @@ tr:nth-child(even) {background-color: #46484a}
         height: 480px;
         width: 100%;
         top: 100px;
+        z-index: -1;
        }
 
 
