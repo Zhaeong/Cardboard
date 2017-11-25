@@ -12,8 +12,9 @@
 
 <?php include('staticPageElements/nav_bar.php'); ?>
 
+<div id="map"></div>
+
 <div id="actualbody">
-    <div id="map"></div>
 
     
     <div id="div_prompt" style="margin-top: 110px;">

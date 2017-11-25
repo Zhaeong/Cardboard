@@ -75,7 +75,7 @@ a {
     text-align: center;
     color: #f7f7f7;
     font-family: Roboto_Thin, Helvetica;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 
@@ -84,6 +84,7 @@ a {
     list-style-type: none;
     background-color: #ffb400;
     position: fixed;
+    z-index: 2;
     left: 0;
     top: 0; 
     width: 100%;
@@ -212,10 +213,9 @@ tr:nth-child(even) {background-color: #46484a}
 
 
 #map {
-        height: 480px;
+        height: 490px;
         width: 100%;
         top: 100px;
-        z-index: -1;
        }
 
 
