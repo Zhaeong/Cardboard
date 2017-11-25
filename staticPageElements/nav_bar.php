@@ -1,22 +1,19 @@
-<!--TITLE-->
-<div id="title">
-    <a href="index.php">
-        <h1> git me dem plugs </h1> 
-    </a>
-</div>
 
 
 <!--NAVIGATION BAR-->
-<ul>
-  <li><a href="index.php">home</a></li>
-  <li><a href="map.php">map</a></li>
-  <li><a href="about.php">about</a></li>
-  <li><a href="contact.php">contact</a></li>
-</ul>
+<div class="navbar">
+  <a href="index.php" id="title">
+        <strong> git me plugs </strong>
+  </a>
+  <a href="contact.php" class="navbarlinks">contact</a>
+  <a href="about.php" class="navbarlinks">about</a>
+  <a href="map.php" class="navbarlinks">map</a>
+  <a href="index.php" class="navbarlinks">home</a>
+</div>
 
 
 <!--FOOTER-->
-<div class="footer">
+<div id="footer">
 Data sourced from 
     <a href="http://www.iec.ch/worldplugs/?ref=extfooter"
     style="color:#fbd562;">The International Electrotechnical Commission</a>. 

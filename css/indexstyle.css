@@ -35,8 +35,7 @@ src: url(../fonts/RobotoSlab-Light.ttf);
 /* STYLES */
 body {
     background-color: #323436;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0;
 }
 h1   { /* title */
     font-family: Bungee, Helvetica;
@@ -64,7 +63,7 @@ a {
     text-decoration: none;
 }
 
-.footer {
+#footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -82,40 +81,49 @@ a {
 
 
 /* NAVIGATION BAR */
-    /* The navbar container */
-ul {
+.navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     background-color: #ffb400;
+    position: fixed;
+    left: 0;
+    top: 0; 
+    width: 100%;
+    height: 100px;
     text-align: center;
     font-family: Oswald;
     font-size: 22px;
 }
-    /* Remove the line breaks before and after each 
-    list item to display them on one line */
-li {
-    display: inline;
+.navbar li{
+    display: inline; /* force block-level lis to stack rather than occupy 100% width */
 }
-li a {
-    display: inline-block;
+/* Links inside the navbar */
+.navbar a {
+    display: inline-block; /* make sure links don't break onto new lines */
     color: #2f2f2f;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
     text-decoration: none;
 }
-    /* Change the link color on hover */
-li a:hover {
+.navbarlinks {
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+    height: 40px;
+    background-color: #ffb400;
+    text-align: center;
+}
+.navbarlinks:hover {
     background-color: #fbd562;
 }
-    /* Active panel colour */
-.active {
-    background-color: #4CAF50;
+#title {
+    float: left;
+    margin-left: 12px;
+    text-decoration: none;
+    font-family: Bungee, Helvetica;
+    font-size: 82px;
+    color: #ffffff;
 }
+
+
 
 
 
@@ -204,6 +212,7 @@ tr:nth-child(even) {background-color: #46484a}
 #map {
         height: 480px;
         width: 100%;
+        top: 100px;
        }
 
 
