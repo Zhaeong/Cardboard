@@ -3,7 +3,7 @@
 <!--NAVIGATION BAR-->
 <div class="navbar">
   <a href="index.php" id="title">
-        <strong> git me plugs </strong>
+        <strong> worldplugs </strong>
   </a>
   <a href="contact.php" class="navbarlinks">contact</a>
   <a href="about.php" class="navbarlinks">about</a>
