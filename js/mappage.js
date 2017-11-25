@@ -32,7 +32,7 @@ window.onclick = function(event) {
 var map;
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 0, lng: 0},
+        center: {lat: 31.79, lng: 0.77},
         zoom: 2
     });
     

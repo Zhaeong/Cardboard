@@ -11,16 +11,18 @@
 
 <div id="actualbody" style="padding-top: 140px;">
 
-	<p>this be about tho</p>
+	<h1> About This Project </h1>
+	<p>
+		World Plug is a tool for the traveller or outlet plug enthusiast
+		to find and compare plug types used in different areas of the
+		world.
+	</p>
+	<h1> <br> About Plugs </h1>
+	<p>
+		There are 15 types of electric plugs in use around the world.
+	</p>
     
 </div>
 
- <canvas id="PlugCanvas" width="600px" height="300px" style="border:1px solid #000000;">
-</canvas> 
-</body>
-
-<footer>
-    <script src="js/pluganimation.js"></script> 
-</footer>
 </html>
 

@@ -34,9 +34,8 @@
         <input list="country_list" id="countryB" placeholder="Country / Territory">';
         
         echo '<datalist id="country_list">';
-            echo $dbObj->getCountryOptions();    
+        echo $dbObj->getCountryOptions();    
         echo '</datalist>';
-        
         
         echo '     <button onclick="getPlugFacts()" id="button_compare">Compare</button> ';
         echo '
@@ -49,7 +48,6 @@
     
     <!--BODY TEXT-->
     <p> <br><br> TO-DO: <br>
-    	check font licences; <br>
         allow special characters (ô, é) in sql; <br>
         <br>
     </p>

@@ -19,10 +19,13 @@
 <div id="actualbody" style="padding-top: 110px;">
 
     <div id="div_prompt">
-    <h2> View the electric plugs <br>
-        used in different areas of the world. <br>
+    <h2> View the electric plugs used in different areas of the world. <br>
     </h2>
-    <p> Please select a country or territory on the map.</p>
+    <p> Please select a country or territory on the map. <br>
+        This option is limited to sovereignties recognised by Google Maps.
+        Go <a href="index.php"
+    style="color:#fbd562;">here</a> for a more complete list.
+    </p>
     </div>
 
     <div id="myModal" class="modal">
@@ -41,8 +44,6 @@
 
     <p style="margin-bottom: 50px;">TO-DO: <br>
     catch exceptions for countries w/o data; <br>
-    write 'for a full list of countries click /here/' msg; <br>
-    make map cover all mini countries; <br>
     </p>
 </div>
 
