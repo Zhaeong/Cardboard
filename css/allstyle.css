@@ -1,0 +1,136 @@
+/* TYPEFACES */
+@font-face { /* title sans */
+font-family: Bungee;
+src: url(../fonts/Bungee-Hairline.otf);
+}
+@font-face { /* header sans */
+font-family: Oswald;
+src: url(../fonts/Oswald-Regular.ttf);
+}
+@font-face {
+font-family: Oswald_Light;
+src: url(../fonts/Oswald-Light.ttf);
+}
+@font-face { /* heading serif */
+font-family: RobotoSlab;
+src: url(../fonts/RobotoSlab-Light.ttf);
+}
+@font-face {
+font-family: RobotoSlab_Thin;
+src: url(../fonts/RobotoSlab-Thin.ttf);
+}
+@font-face { /* body sans */
+font-family: Quicksand_Light;
+src: url(../fonts/Quicksand_Light.otf);
+}
+@font-face { /* body sans */
+font-family: Roboto_Thin;
+src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+font-family: Roboto_Light;
+src: url(../fonts/Roboto-Light.ttf);
+}
+
+
+
+
+/* STYLES */
+body {
+    background-color: #323436;
+    margin: 0;
+}
+h1   { /* heading */
+    color: #fbd562;
+    font-family: RobotoSlab, Helvetica;
+    font-size: 40px;
+    margin: 0;
+}
+h2   { /* small heading */
+    color: #f7f7f7;
+    font-family: RobotoSlab_Thin, Helvetica;
+    font-size: 40px;
+    margin: 0;
+}
+p    {
+    color: #f7f7f7;
+    font-family: Roboto_Thin, Helvetica;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+a {
+    text-decoration: none;
+}
+#actualbody {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+/* NAVIGATION BAR */
+.navbar {
+    list-style-type: none;
+    background-color: #ffb400;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0; 
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 22px;
+}
+.navbar li{
+    display: inline; 
+    /* force block-level lis to stack rather than occupy 100% width */
+}
+.navbar a {
+    display: inline-block; 
+    /* make sure links don't break onto new lines */
+    color: #2f2f2f;
+    text-decoration: none;
+}
+.navbarlinks {
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 51px;
+    height: 49px;
+    background-color: #ffb400;
+    text-align: center;
+}
+.navbarlinks:hover {
+    background-color: #fbd562;
+}
+
+
+
+/* TITLE */
+#title {
+    float: left;
+    margin-left: 12px;
+    text-decoration: none;
+    font-family: Bungee, Helvetica;
+    font-size: 82px;
+    color: #ffffff;
+}
+
+
+
+/* FOOTER */
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    background-color: #323436;
+    text-align: center;
+    color: #f7f7f7;
+    font-family: Roboto_Thin, Helvetica;
+    font-size: 13px;
+}

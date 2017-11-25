@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="css/allstyle.css">
   <link rel="stylesheet" href="css/indexstyle.css">
   <script src="js/indexpage.js"></script> 
-  <title>Pluug</title>
+  <title>World Plug</title>
 </head>
 <body>
 
@@ -11,13 +12,12 @@
 <?php include('staticPageElements/nav_bar.php'); ?>
 </div>
 
-<div id="actualbody">
-    <div id="div_prompt" style="margin-top: 140px;">
+<div id="actualbody" style="padding-top: 140px;">
+    <div id="div_prompt">
     <h2> Compare the electric plugs <br>
         used in different areas of the world. <br>
     </h2>
-    <h1>
-        What plugs do they use in . . .</h1>
+    <h1> What plugs do they use in . . . </h1>
     <p> Please enter two countries / territories.</p>
     </div>
 

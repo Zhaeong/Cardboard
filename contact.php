@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="css/indexstyle.css">
+  <link rel="stylesheet" href="css/allstyle.css">
 
 
   <title>Contact</title>
@@ -10,8 +10,13 @@
 
 <?php include('staticPageElements/nav_bar.php'); ?>
 
-<p>this be contact tho</p>
+
+<div id="actualbody" style="padding-top: 140px;">
+
+	<p>this be contact tho</p>
     
+</div>
+
 </body>
 </html>
 

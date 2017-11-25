@@ -1,0 +1,61 @@
+
+/* MAP */
+#map {
+        height: 490px;
+        width: 100%;
+        top: 100px;
+       }
+
+
+
+/* MODAL */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 245px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+.modal-content {
+    background-color:rgba(33, 33, 33, 0.65);
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    width: 60%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#modalCountryName {
+    color: #ffca00;
+    font-family: RobotoSlab;
+    font-size: 40px;
+}
+#modalVoltage {
+    color: #f7f7f7;
+    font-family: Roboto_Light;
+    font-size: 18px;
+}
+#modalFreq {
+    color: #f7f7f7;
+    font-family: Roboto_Light;
+    font-size: 18px;
+}
+#modalPlug {
+    color: #f7f7f7;
+    font-family: Roboto_Light;
+    font-size: 18px;
+}

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="css/indexstyle.css">
+  <link rel="stylesheet" href="css/allstyle.css">
+  <link rel="stylesheet" href="css/mapstyle.css">
   <script src="js/indexpage.js"></script> 
   
   
@@ -14,10 +15,10 @@
 
 <div id="map"></div>
 
-<div id="actualbody">
 
-    
-    <div id="div_prompt" style="margin-top: 110px;">
+<div id="actualbody" style="padding-top: 110px;">
+
+    <div id="div_prompt">
     <h2> View the electric plugs <br>
         used in different areas of the world. <br>
     </h2>
