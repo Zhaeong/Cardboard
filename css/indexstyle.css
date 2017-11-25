@@ -67,13 +67,17 @@ a {
 .footer {
     position: fixed;
     left: 0;
-    bottom: 13px;
+    bottom: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
     width: 100%;
+    background-color: #323436;
     text-align: center;
     color: #f7f7f7;
     font-family: Roboto_Thin, Helvetica;
     font-size: 15px;
 }
+
 
 
 
