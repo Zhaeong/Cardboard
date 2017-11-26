@@ -5,8 +5,8 @@
   <a href="index.php" id="title">
         <strong> worldplugs </strong>
   </a>
-  <a href="contact.php" class="navbarlinks">CONTACT</a>
   <a href="about.php" class="navbarlinks">ABOUT</a>
+  <a href="list.php" class="navbarlinks">LIST</a>
   <a href="map.php" class="navbarlinks">MAP</a>
   <a href="index.php" class="navbarlinks">HOME</a>
 </div>

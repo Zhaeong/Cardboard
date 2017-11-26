@@ -1,0 +1,34 @@
+/* LIST TABLE */
+#listTable {
+    border: 3px solid #ffca00;
+    width: 100%;
+    background-color: #5a5c5e;
+    color: #ffca00;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+    /* header */
+#listTable th {
+    font-family: RobotoSlab;
+    font-size: 40px;
+    padding-right: 50px;
+}
+    /* cell */
+#listTable td {
+    font-family: Roboto_Thin;
+    font-size: 18px;
+    color: #f7f7f7;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#listTable td:nth-child(1) {
+    color: #ffca00;
+    font-family: Roboto_Light;
+}
+    /* row */
+#listTable tr {
+    height: 50px;
+    text-align: left;
+}
+#listTable tr:nth-child(even) {background-color: #46484a}

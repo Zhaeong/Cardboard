@@ -23,7 +23,7 @@
     </h2>
     <p> Please select a country or territory on the map. <br>
         This option is limited to sovereignties recognised by Google Maps.
-        Go <a href="index.php"
+        Go <a href="list.php"
     style="color:#fbd562;">here</a> for a more complete list.
     </p>
     </div>
