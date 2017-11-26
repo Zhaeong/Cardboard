@@ -41,10 +41,6 @@
 
     </div>
 
-
-    <p style="margin-bottom: 50px;">TO-DO: <br>
-    catch exceptions for countries w/o data; <br>
-    </p>
 </div>
 
 </body>

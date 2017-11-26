@@ -14,7 +14,12 @@
 
 <div id="actualbody" style="padding-top: 140px;">
 
-	<p>changed contact to list view</p>
+	<div id="div_prompt">
+    <h2> Compare the electric plugs <br>
+        used in different areas of the world. <br>
+    </h2>
+    <p> Use Ctrl+F (⌘ + F on Mac) to find a country.</p>
+    </div>
 
 	<table id="listTable">
 		<thead>
@@ -37,12 +42,14 @@
 		  echo "Failed to connect to MySQL: " . mysqli_connect_error();
 		  }
 
-		$SELECT = mysqli_query($conn, "SELECT * FROM powerswitches");
+		$SELECT = mysqli_query($conn, "SELECT * 
+			                           FROM powerswitches 
+			                           ORDER BY country_display");
 		if($SELECT != false) {
 		    while($rows = mysqli_fetch_array($SELECT)) {
 		        echo "
 		        <tr>
-		            <td>".$rows["country"]."</td>
+		            <td>".$rows["country_display"]."</td>
 		            <td>".$rows["voltage"]."</td>
 		            <td>".$rows["frequency"]."</td>
 		            <td>".$rows["plug"]."</td>
@@ -62,12 +69,6 @@
 	</table>
 
 
-
-
-
-
-
-    
 
 	<canvas id="PlugCanvas" width="600px" height="300px" style="border:1px solid #000000;">
 	</canvas> 
