@@ -3,10 +3,11 @@
     border: 3px solid #ffca00;
     width: 100%;
     background-color: #5a5c5e;
-    color: #ffca00;
+    color: #fbd562;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
+    table-layout: fixed;
 }
     /* header */
 #listTable th {
@@ -21,9 +22,10 @@
     color: #f7f7f7;
     padding-left: 10px;
     padding-right: 10px;
+    width: 100px;
 }
 #listTable td:nth-child(1) {
-    color: #ffca00;
+    color: #fbd562;
     font-family: Roboto_Light;
 }
     /* row */

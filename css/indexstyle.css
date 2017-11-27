@@ -53,10 +53,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
+
 }
     /* header */
 th {
     font-family: RobotoSlab;
+    color: #fbd562;
     font-size: 40px;
     padding-right: 50px;
 }
@@ -69,7 +71,7 @@ td {
     padding-right: 10px;
 }
 td:nth-child(1) {
-    color: #ffca00;
+    color: #fbd562;
     font-family: Roboto_Light;
 }
     /* row */

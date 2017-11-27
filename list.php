@@ -18,7 +18,7 @@
     <h2> Compare the electric plugs <br>
         used in different areas of the world. <br>
     </h2>
-    <p> Use Ctrl+F (⌘ + F on Mac) to find a country.</p>
+    <p> Use Ctrl + F (⌘ + F on Mac) to find a country.</p>
     </div>
 
 	<table id="listTable">
@@ -60,7 +60,7 @@
 		else {
 		    echo "
 		        <tr>
-		        <td colspan='3'>Something went wrong with the query</td>
+		        <td colspan='3'>Sorry! Something went wrong.</td>
 		        </tr>
 		    ";
 		}
