@@ -19,7 +19,10 @@
 	</p>
 	<h1> <br> About Plugs </h1>
 	<p>
-		There are 15 types of electric plugs in use around the world.
+		There are 15 types of AC power plugs in use around the world.
+		Each plug type corresponds to a specific socket outlet.
+		[Plug / socket illustrations.]
+		[Travel adapter info.]
 	</p>
 	<h1> <br> About the Team </h1>
 	<p>
