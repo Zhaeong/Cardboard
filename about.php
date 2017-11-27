@@ -21,6 +21,10 @@
 	<p>
 		There are 15 types of electric plugs in use around the world.
 	</p>
+	<h1> <br> About the Team </h1>
+	<p>
+		World Plug was conceived by two Canadians who travel sometimes.
+	</p>
     
 </div>
 
