@@ -46,11 +46,7 @@
     </p>
     </div>
     
-    <!--BODY TEXT-->
-    <p> <br><br> TO-DO: <br>
-        allow special characters (ô, é) in sql; <br>
-        <br>
-    </p>
+
 
 </div>
 
