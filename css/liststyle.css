@@ -58,8 +58,8 @@
     font-family: Roboto_Thin;
     font-size: 18px;
     color: #f7f7f7;
-    padding-left: 10px;
-    padding-right: 10px;
+/*    padding-left: 10px;
+    padding-right: 10px;*/
     width: 100px;
 }
     /* row */
@@ -67,4 +67,4 @@
     height: 50px;
     text-align: left;
 }
-#regTable tr:nth-child(even) {background-color: #46484a}
+/*#regTable tr:nth-child(even) {background-color: #46484a}*/

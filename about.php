@@ -22,58 +22,57 @@
 	</p>
 	<h3> <br> About Plugs </h3>
 	<p>
-		There are 14 types of AC power plugs in use around the world.
-		Each plug type corresponds to a specific socket outlet.
+		There are 14 types of AC power plugs (and corresponding socket outlets) in use around the world.
 
 
 	<table id="regTable">
 		<tr>
 		    <th>Type</th>
-		    <th>Image</th> 
+		    <th>Plug</th> 
 		    <th>Type</th>
-		    <th>Image</th>
+		    <th>Plug</th>
 		</tr>
 		<tr>
 			<td>A</td>
-			<td><img src="/plugtypes/A.png" alt="Plug Type A" width="79" height="37"></td> 
+			<td><img src="/plugtypes/A_3d.png" alt="Plug Type A" width="200" height="200"></td> 
 			<td>H</td>
-			<td><img src="/plugtypes/H.png" alt="Plug Type H" width="79" height="37"></td> 
+			<td><img src="/plugtypes/H_3d.png" alt="Plug Type H" width="200" height="200"></td> 
 		</tr>
 		<tr>
 			<td>B</td>
-			<td><img src="/plugtypes/B.png" alt="Plug Type B" width="79" height="37"></td>
+			<td><img src="/plugtypes/B_3d.png" alt="Plug Type B" width="200" height="200"</td>
 			<td>I</td>
-			<td><img src="/plugtypes/I.png" alt="Plug Type I" width="79" height="37"></td>  
+			<td><img src="/plugtypes/I_3d.png" alt="Plug Type I" width="200" height="200"></td>  
 		</tr>
 		<tr>
 			<td>C</td>
-			<td><img src="/plugtypes/C.png" alt="Plug Type C" width="79" height="37"></td>
+			<td><img src="/plugtypes/C_3d.png" alt="Plug Type C" width="200" height="200"></td>
 			<td>J</td>
-			<td><img src="/plugtypes/J.png" alt="Plug Type J" width="79" height="37"></td>  
+			<td><img src="/plugtypes/J_3d.png" alt="Plug Type J" width="200" height="200"></td>  
 		</tr>
 		<tr>
 			<td>D</td>
-			<td><img src="/plugtypes/D.png" alt="Plug Type D" width="79" height="37"></td>
+			<td><img src="/plugtypes/D_3d.png" alt="Plug Type D" width="200" height="200"></td>
 			<td>K</td>
-			<td><img src="/plugtypes/K.png" alt="Plug Type K" width="79" height="37"></td>  
+			<td><img src="/plugtypes/K_3d.png" alt="Plug Type K" width="200" height="200"></td>  
 		</tr>
 		<tr>
 			<td>E</td>
-			<td><img src="/plugtypes/E.png" alt="Plug Type E" width="79" height="37"></td>
+			<td><img src="/plugtypes/E_3d.png" alt="Plug Type E" width="200" height="200"></td>
 			<td>L</td>
-			<td><img src="/plugtypes/L.png" alt="Plug Type L" width="79" height="37"></td>  
+			<td><img src="/plugtypes/L_3d.png" alt="Plug Type L" width="200" height="200"></td>  
 		</tr>
 		<tr>
 			<td>F</td>
-			<td><img src="/plugtypes/F.png" alt="Plug Type F" width="79" height="37"></td> 
+			<td><img src="/plugtypes/F_3d.png" alt="Plug Type F" width="200" height="200"></td> 
 			<td>M</td>
-			<td><img src="/plugtypes/M.png" alt="Plug Type M" width="79" height="37"></td> 
+			<td><img src="/plugtypes/M_3d.png" alt="Plug Type M" width="200" height="200"></td> 
 		</tr>
 		<tr>
 			<td>G</td>
-			<td><img src="/plugtypes/G.png" alt="Plug Type G" width="79" height="37"></td>
+			<td><img src="/plugtypes/G_3d.png" alt="Plug Type G" width="200" height="200"></td>
 			<td>N</td>
-			<td><img src="/plugtypes/N.png" alt="Plug Type N" width="79" height="37"></td>  
+			<td><img src="/plugtypes/N_3d.png" alt="Plug Type N" width="200" height="200"></td>  
 		</tr>
 	</table>
 
