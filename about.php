@@ -22,6 +22,10 @@
 		There are 15 types of AC power plugs in use around the world.
 		Each plug type corresponds to a specific socket outlet.
 
+
+	<img src="/plugtypes/a-btn-set.png" alt="Plug Type A" width="128" height="128">
+
+
 	</p>
 	<h1> <br> About the Team </h1>
 	<p>
