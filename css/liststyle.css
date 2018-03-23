@@ -34,3 +34,37 @@
     text-align: left;
 }
 #listTable tr:nth-child(even) {background-color: #46484a}
+
+
+/* REGULAR TABLE */
+#regTable {
+    border: 3px solid #ffca00;
+    width: 100%;
+    background-color: #323436;
+    color: #f7f7f7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    table-layout: fixed;
+}
+    /* header */
+#regTable th {
+    font-family: RobotoSlab;
+    font-size: 24px;
+    padding-right: 50px;
+}
+    /* cell */
+#regTable td {
+    font-family: Roboto_Thin;
+    font-size: 18px;
+    color: #f7f7f7;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100px;
+}
+    /* row */
+#regTable tr {
+    height: 50px;
+    text-align: left;
+}
+#regTable tr:nth-child(even) {background-color: #46484a}
