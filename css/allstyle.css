@@ -40,13 +40,19 @@ body {
     background-color: #323436;
     margin: 0;
 }
-h1   { /* heading */
+h1   { /* thick yellow heading */
     color: #fbd562;
     font-family: RobotoSlab, Helvetica;
     font-size: 40px;
     margin: 0;
 }
-h2   { /* small heading */
+h3   { /* smaller vers. of thick yellow heading */
+    color: #fbd562;
+    font-family: RobotoSlab, Helvetica;
+    font-size: 30px;
+    margin: 0;
+}
+h2   { /* thin white heading */
     color: #f7f7f7;
     font-family: RobotoSlab_Thin, Helvetica;
     font-size: 40px;
