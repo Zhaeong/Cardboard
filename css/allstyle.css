@@ -65,15 +65,13 @@ p    {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-a {
+a    {
     text-decoration: none;
 }
 #actualbody {
     margin-left: 100px;
     margin-right: 100px;
 }
-
-
 
 /* NAVIGATION BAR */
 .navbar {
@@ -91,7 +89,7 @@ a {
 }
 .navbar li{
     display: inline; 
-    /* force block-level lis to stack rather than occupy 100% width */
+    /* force block-level li's to stack rather than occupy 100% width */
 }
 .navbar a {
     display: inline-block; 
@@ -112,8 +110,6 @@ a {
     background-color: #fbd562;
 }
 
-
-
 /* TITLE */
 #title {
     float: left;
@@ -123,8 +119,6 @@ a {
     font-size: 82px;
     color: #ffffff;
 }
-
-
 
 /* FOOTER */
 #footer {
