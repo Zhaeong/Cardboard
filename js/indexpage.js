@@ -44,7 +44,7 @@ function getPlugFacts()
             + '<tr>'
                 + '<td>Plug Type(s)</td>'
                 + '<td>'
-            // Country A plug str and plug img
+            // display Country A plug str and plug img
             for (i = 0; i < plugA.length; i++) { // for every substr of plugA
                 countryAhtml += plugA[i] // display the plug type str
                 switch (plugA[i]) { // display the plug img
@@ -90,7 +90,7 @@ function getPlugFacts()
                     case 'N':
                         countryAhtml += '<img src="/plugtypes/N.png" alt="Plug Type N" width="79" height="37">';
                         break;
-                } // break before next plug
+                } // vertical whitespace before next plug
                 countryAhtml +='<br>'
             } // at end of for loop, close cell
             countryAhtml += '</td>'
