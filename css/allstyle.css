@@ -21,7 +21,7 @@ src: url(../fonts/RobotoSlab-Thin.ttf);
 }
 @font-face { /* body sans */
 font-family: Quicksand_Light;
-src: url(../fonts/Quicksand_Light.otf);
+src: url(../fonts/Quicksand-Light.otf);
 }
 @font-face { /* body sans */
 font-family: Roboto_Thin;
@@ -31,9 +31,6 @@ src: url(../fonts/Roboto-Thin.ttf);
 font-family: Roboto_Light;
 src: url(../fonts/Roboto-Light.ttf);
 }
-
-
-
 
 /* STYLES */
 body {

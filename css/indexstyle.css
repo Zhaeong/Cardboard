@@ -40,10 +40,6 @@
 }
 #button_compare:focus {outline:0;}
 
-
-
-
-
 /* INDEX TABLE */
 #outputTable {
     border: 3px solid #ffca00;
@@ -80,7 +76,3 @@ tr {
     text-align: left;
 }
 tr:nth-child(even) {background-color: #46484a}
-
-
-
-
