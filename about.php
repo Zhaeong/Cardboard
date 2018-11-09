@@ -18,7 +18,7 @@
 		to find and compare plug types used in different areas of the
 		world.
 		<br>
-		It was conceived by two Canadians who travel sometimes.
+		It was made by a Plug B user and a Plug I user who travel sometimes.
 	</p>
 	<h3> <br> About Plugs </h3>
 	<p>
