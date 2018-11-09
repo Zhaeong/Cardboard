@@ -16,7 +16,7 @@
 <div id="map"></div>
 
 
-<div id="actualbody" style="padding-top: 110px;">
+<div id="actualbody" style="padding-top: 110px;" style="padding-bottom: 50px;">
 
     <div id="div_prompt">
     <h2> View the electric plugs used in different areas of the world. <br>
