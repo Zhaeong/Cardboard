@@ -1,35 +1,35 @@
 /* TYPEFACES */
 @font-face { /* title sans */
 font-family: Bungee;
-src: url(../fonts/Bungee-Hairline.otf);
+src: url(../fonts/Bungee_Hairline.otf);
 }
 @font-face { /* header sans */
 font-family: Oswald;
-src: url(../fonts/Oswald-Regular.ttf);
+src: url(../fonts/Oswald_Regular.ttf);
 }
 @font-face {
 font-family: Oswald_Light;
-src: url(../fonts/Oswald-Light.ttf);
+src: url(../fonts/Oswald_Light.ttf);
 }
 @font-face { /* heading serif */
 font-family: RobotoSlab;
-src: url(../fonts/RobotoSlab-Light.ttf);
+src: url(../fonts/RobotoSlab_Light.ttf);
 }
 @font-face {
 font-family: RobotoSlab_Thin;
-src: url(../fonts/RobotoSlab-Thin.ttf);
+src: url(../fonts/RobotoSlab_Thin.ttf);
 }
 @font-face { /* body sans */
 font-family: Quicksand_Light;
-src: url(../fonts/Quicksand-Light.otf);
+src: url(../fonts/Quicksand_Light.otf);
 }
 @font-face { /* body sans */
 font-family: Roboto_Thin;
-src: url(../fonts/Roboto-Thin.ttf);
+src: url(../fonts/Roboto_Thin.ttf);
 }
 @font-face {
 font-family: Roboto_Light;
-src: url(../fonts/Roboto-Light.ttf);
+src: url(../fonts/Roboto_Light.ttf);
 }
 
 /* STYLES */
