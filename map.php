@@ -16,7 +16,7 @@
 <div id="map"></div>
 
 
-<div id="actualbody" style="padding-top: 110px;" style="padding-bottom: 50px;">
+<div id="actualbody" style="padding-top: 110px;" >
 
     <div id="div_prompt">
     <h2> View the electric plugs used in different areas of the world. <br>
@@ -25,7 +25,7 @@
         This option is limited to sovereignties recognised by Google Maps.
         Go <a href="list.php"
     style="color:#fbd562;">here</a> for a more complete list.
-    </p>
+    </p> </p> </p> </p>
     </div>
 
     <div id="myModal" class="modal">
