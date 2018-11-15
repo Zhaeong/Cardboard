@@ -153,3 +153,13 @@ function getPlugFacts()
     xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
     xhttp.send(params);           
 }
+
+/* Toggle between adding + removing the "responsive" class to topnav when the user clicks on dropdown icon */
+function toggleMenuDropdown() {
+    var x = document.getElementById("navBar");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
