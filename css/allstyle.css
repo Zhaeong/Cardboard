@@ -85,11 +85,12 @@ a    {
     color: #2f2f2f;
     display: inline-block;
     float: right;
-    text-align: center;
-    text-decoration: none;
+    height: 100px;
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .topnav-right a:hover {
