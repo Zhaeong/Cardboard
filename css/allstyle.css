@@ -1,7 +1,7 @@
 /* TYPEFACES */
 @font-face { /* title sans */
 font-family: Bungee;
-src: url(../fonts/Bungee_Hairline.otf);
+src: url(../fonts/Bungee_Hairline.ttf);
 }
 @font-face { /* header sans */
 font-family: Oswald;
