@@ -13,30 +13,26 @@
 
 <div id="map"></div>
 
-
 <div id="actualbody" style="padding-top: 110px;" >
 
     <div id="div_prompt">
-    <h2> View the electric plugs used in different areas of the world. <br>
-    </h2>
-    <p> Please select a country or territory on the map. <br>
-        This option is limited to sovereignties recognised by Google Maps.
-        Go <a href="list.php"
-    style="color:#fbd562;">here</a> for a more complete list.
-    </p> </p> </p> </p>
+        <h2> View the electric plugs used in different areas of the world. <br>
+        </h2>
+        <p> Please select a country or territory on the map. <br>
+            This option is limited to sovereignties recognised by Google Maps.
+            Go <a href="list.php" style="color:#fbd562;">
+            here</a> for a more complete list.
+        </p>
     </div>
 
     <div id="myModal" class="modal">
-
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <div id = "modalCountryName"></div>
-        <div id = "modalVoltage">.</div>
-        <div id = "modalFreq"></div>
-        <div id = "modalPlug"></div>
-      </div>
-
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id = "modalCountryName"></div>
+            <div id = "modalVoltage">.</div>
+            <div id = "modalFreq"></div>
+            <div id = "modalPlug"></div>
+        </div>
     </div>
 
 </div>
