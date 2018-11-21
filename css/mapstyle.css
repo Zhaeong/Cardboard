@@ -5,11 +5,6 @@
         top: 100px;
        }
 
-/* PROMPT TEXT */
-#div_prompt {
-    margin-bottom: 50px;
-}
-
 /* MODAL */
 .modal {
     display: none; /* Hidden by default */

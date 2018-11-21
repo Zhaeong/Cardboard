@@ -68,77 +68,85 @@ a    {
 #actualbody {
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
 }
 
-/* RESPONSIVE NAVIGATION BAR */
+/* NAVIGATION BAR */
 .topnav {
     background-color: #ffb400;
+    display: inline-block;
     height: 100px;
-    overflow: hidden;
+    overflow: visible;
     position: fixed;
     width: 100%;
 }
-
-#title {
-    color: #ffffff;
-    float: left;
-    font-family: Bungee, Helvetica;
-    font-size: 89px;
-    height: 100px;
-    text-decoration: none;
-}
-.topnav-right a {
+.topnav-links a {
     color: #2f2f2f;
     display: inline-block;
     float: right;
     font-family: Oswald;
     font-size: 22px;
-    height: 100px;
+    height: 60px;
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-    text-decoration: none;
 }
-
-.topnav-right a:hover {
+.topnav-links a:hover {
     background-color: #fbd562;
 }
 /* hide the <dropdown link that opens and closes the topnav on small screens> */
-.topnav .icon {
+.topnav .burgerIcon {
     display: none;
 }
-
-
-/* When screen < 800 pixels wide, hide all topnav-right links except dropdown icon. */
+/* When screen < 800 pixels wide, hide all topnav-links links except dropdown icon. */
 @media screen and (max-width: 950px) {
-  .topnav-right a {display: none;}
-  .topnav a.icon {
+  .topnav-links a {
+    display: none;
+  }
+  .topnav a.burgerIcon {
     display: block;
     float: right;
   }
 }
-/* When the user clicks the dropdown icon, display the links vertically. */
-@media screen and (max-width: 950px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+
+/* NAVBAR DROPDOWN MENU */
+.dropdown {
+    float: right;
+    overflow: hidden;
 }
 
-
+.dropdown .burgerIcon {
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content {
+    background-color: #ffb400;
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    z-index: 3;
+}
+.dropdown-content a {
+    display: block;
+    float: none;
+    height: 45px;
+    padding-top: 15px;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #fbd562;
+}
+.show {
+    display: block;
+}
 
 /* FOOTER */
 #footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     padding-top: 12px;
     padding-bottom: 12px;
