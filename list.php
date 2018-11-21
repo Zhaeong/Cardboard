@@ -67,15 +67,6 @@
 		</tbody>
 	</table>
 
-
-<!-- 
-	<canvas id="PlugCanvas" width="600px" height="300px" style="border:1px solid #000000;">
-	</canvas> 
-	</body>
-
-	<footer>
-	    <script src="js/pluganimation.js"></script> 
-	</footer> -->
 <br><br><br><br> 
 </div>
 
