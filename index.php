@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="css/allstyle.css">
     <link rel="stylesheet" href="css/indexstyle.css">
     <script src="js/indexpage.js"></script> 
+    <script src="js/navbar.js"></script> 
     <title>World Plug</title>
 </head>
 <body>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="css/allstyle.css">
-  <link rel="stylesheet" href="css/liststyle.css">
-
-  <title>About</title>
+    <link rel="stylesheet" href="css/allstyle.css">
+    <link rel="stylesheet" href="css/liststyle.css">
+    <script src="js/navbar.js"></script> 
+    <title>About</title>
 </head>
 <body>
 
