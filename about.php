@@ -10,7 +10,7 @@
 
 <?php include('staticPageElements/nav_bar.php'); ?>
 
-<div id="actualbody" style="padding-top: 140px;">
+<div id="actualbody">
 
 	<h3> About This Project </h3>
 	<p>
@@ -81,4 +81,3 @@
 </div>
 
 </html>
-
