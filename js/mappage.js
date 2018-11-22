@@ -1,6 +1,4 @@
-
 var modal = document.getElementById('myModal');
-
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -37,7 +35,7 @@ function initMap() {
             "elementType": "geometry",
             "stylers": [
               { /* water */
-                "color": /*"#add4f2" "#8aa9c1"*/  "#949494"
+                "color": "#949494"
               }
             ]
           },

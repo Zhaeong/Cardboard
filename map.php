@@ -3,9 +3,8 @@
 <head>
     <link rel="stylesheet" href="css/allstyle.css">
     <link rel="stylesheet" href="css/mapstyle.css">
-    <script src="js/indexpage.js"></script> 
     <script src="js/navbar.js"></script> 
-  <title>Map</title>
+    <title>Map</title>
 </head>
 <body>
 
@@ -47,4 +46,3 @@
     async defer></script>
 </footer>
 </html>
-
