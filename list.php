@@ -10,14 +10,13 @@
 
 <?php include('staticPageElements/nav_bar.php'); ?>
 
-
-<div id="actualbody" style="padding-top: 140px;">
+<div id="actualbody">
 
 	<div id="div_prompt">
-    <h2> Compare the electric plugs <br>
-        used in different areas of the world. <br>
-    </h2>
-    <p> Use Ctrl + F (⌘ + F on Mac) to find a country.</p>
+	    <h2> Compare the electric plugs <br>
+	        used in different areas of the world. <br>
+	    </h2>
+	    <p> Use Ctrl + F (⌘ + F on Mac) to find a country.</p>
     </div>
 
 	<table id="listTable">
@@ -68,7 +67,5 @@
 	</table>
 </div>
 
-
 </body>
 </html>
-

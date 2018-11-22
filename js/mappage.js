@@ -130,53 +130,52 @@ function initMap() {
 function drawMap(data) {
     var rows = data['rows'];
     for (var i in rows) {
-      if (rows[i][0] != 'Antarctica') {
+        if (rows[i][0] != 'Antarctica') {
         var newCoordinates = [];
         var geometries = rows[i][1]['geometries'];
         if (geometries) {
-          for (var j in geometries) {
-            newCoordinates.push(constructNewCoordinates(geometries[j]));
-          }
+            for (var j in geometries) {
+                newCoordinates.push(constructNewCoordinates(geometries[j]));
+            }
         } else {
-          newCoordinates = constructNewCoordinates(rows[i][1]['geometry']);
+            newCoordinates = constructNewCoordinates(rows[i][1]['geometry']);
         }
         var country = new google.maps.Polygon({
-          paths: newCoordinates,
-          strokeColor: '#ffffff',
-          strokeOpacity: 1,
-          strokeWeight: 0.3,
-          fillColor: '#000000',
-          fillOpacity: 0,
-          name: rows[i][0]
+            paths: newCoordinates,
+            strokeColor: '#ffffff',
+            strokeOpacity: 1,
+            strokeWeight: 0.3,
+            fillColor: '#000000',
+            fillOpacity: 0,
+            name: rows[i][0]
         });
         google.maps.event.addListener(country, 'mouseover', function() {
-          this.setOptions({fillOpacity: 0.4});
+            this.setOptions({fillOpacity: 0.4});
         });
         google.maps.event.addListener(country, 'mouseout', function() {
-          this.setOptions({fillOpacity: 0});
+            this.setOptions({fillOpacity: 0});
         });
         google.maps.event.addListener(country, 'click', function() {
-          //alert(this.name);
-          getCountryInfo(this.name);
+            //alert(this.name);
+            getCountryInfo(this.name);
         });
 
         country.setMap(map);
-      }
+        }
     }
-  }
+}
 
 function constructNewCoordinates(polygon) {
     var newCoordinates = [];
     var coordinates = polygon['coordinates'][0];
     for (var i in coordinates) {
-      newCoordinates.push(
-          new google.maps.LatLng(coordinates[i][1], coordinates[i][0]));
+        newCoordinates.push(
+            new google.maps.LatLng(coordinates[i][1], coordinates[i][0]));
     }
     return newCoordinates;
-  }
+}
   
-function getCountryInfo(countryName)
-  { 
+function getCountryInfo(countryName) { 
     console.log(countryName);
     var params = "getCountryInfo=1&country=" + countryName;
     var xhttp = new XMLHttpRequest();
@@ -189,10 +188,9 @@ function getCountryInfo(countryName)
             document.getElementById("modalVoltage").innerHTML = '<br> Voltage: ' + responseJSON.voltage + ' V';  
             document.getElementById("modalFreq").innerHTML = 'Frequency: ' + responseJSON.frequency + ' Hz';  
             document.getElementById("modalPlug").innerHTML = 'Plug Type(s): ' + responseJSON.plug;  
-             
         }
     };
     xhttp.open("POST", "database/request_handler.php", true);
     xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
     xhttp.send(params);      
-  }
+}

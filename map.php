@@ -9,11 +9,13 @@
 </head>
 <body>
 
+<div id="div_navbar">
 <?php include('staticPageElements/nav_bar.php'); ?>
+</div>
 
 <div id="map"></div>
 
-<div id="actualbody" >
+<div id="actualbody">
 
     <div id="div_prompt">
         <h2> View the electric plugs used in different areas of the world. <br>

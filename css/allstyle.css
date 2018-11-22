@@ -76,7 +76,6 @@ a    {
 #div_navbar {
     display: block;
     position: fixed;
-    top: 0;
 }
 .topnav {
     background-color: #ffb400;
