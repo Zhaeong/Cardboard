@@ -66,15 +66,21 @@ a    {
     text-decoration: none;
 }
 #actualbody {
+    padding-top: 140px;
+    margin-bottom: 50px;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 50px;
 }
 
 /* NAVIGATION BAR */
+#div_navbar {
+    display: block;
+    position: fixed;
+    top: 0;
+}
 .topnav {
     background-color: #ffb400;
-    display: inline-block;
+    display: block;
     height: 100px;
     overflow: visible;
     position: fixed;
@@ -99,7 +105,7 @@ a    {
 .topnav .burgerIcon {
     display: none;
 }
-/* When screen < 800 pixels wide, hide all topnav-links links except dropdown icon. */
+/* When screen < 950 pixels wide, hide all topnav-links links except dropdown icon. */
 @media screen and (max-width: 950px) {
   .topnav-links a {
     display: none;
@@ -107,6 +113,9 @@ a    {
   .topnav a.burgerIcon {
     display: block;
     float: right;
+    font-size: 41px;
+    height: 76px;
+    padding-top: 24px;
   }
 }
 
@@ -115,7 +124,6 @@ a    {
     float: right;
     overflow: hidden;
 }
-
 .dropdown .burgerIcon {
     background-color: inherit;
     font-family: inherit;

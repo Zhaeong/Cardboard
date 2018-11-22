@@ -7,13 +7,14 @@
     <script src="js/navbar.js"></script> 
     <title>World Plug</title>
 </head>
+
 <body>
 
 <div id="div_navbar">
-<?php include('staticPageElements/nav_bar.php'); ?>
+    <?php include('staticPageElements/nav_bar.php'); ?>
 </div>
 
-<div id="actualbody" style="padding-top: 140px;">
+<div id="actualbody">
     <div id="div_prompt">
         <h2> 
             Compare the electric plugs <br>
@@ -52,10 +53,7 @@
                 ?>
         </p>
     </div>
-
-<br><br><br><br> 
 </div>
-
 
 </body>
 </html>
